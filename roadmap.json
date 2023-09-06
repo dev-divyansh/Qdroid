@@ -1,5 +1,4 @@
-{
-   "roadmap": [
+ [
       {
          "heading": "Introduction",
          "content": "Becoming an advanced Android developer takes time, dedication, and consistent effort. Here's a detailed roadmap for beginners looking to get started in native Android development and progress to an advanced level. This roadmap assumes you have basic programming knowledge but no prior experience with Android development."
@@ -85,4 +84,4 @@
          "content": "Android development is continuously evolving, so stay updated with new tools, libraries, and best practices."
       }
    ]
-}
+
