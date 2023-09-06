@@ -266,10 +266,13 @@
     "contributor": "Divyansh Pratap Singh",
     "contributor-social": "https://github.com/dev-divyansh"
   },
-  {
-    "questionNumber": "39",
-    "question": "What is the Android JobScheduler, and how does it help in managing background tasks?",
-    "answer": "JobScheduler is an Android API that allows developers to schedule and manage background tasks efficiently. It can defer tasks to run when certain conditions are
+ {
+  "questionNumber": "39",
+  "question": "What is the Android JobScheduler, and how does it help in managing background tasks?",
+  "answer": "JobScheduler is an Android API that allows developers to schedule and manage background tasks efficiently. It can defer tasks to run when certain conditions are met, such as when the device is charging, connected to Wi-Fi, or when there is network connectivity. This helps in optimizing power consumption and network usage, making it a useful tool for managing background tasks in a battery-efficient manner.",
+  "contributor": "Divyansh Pratap Singh",
+  "contributor-social": "https://github.com/dev-divyansh"
+}
 
 ]
 
