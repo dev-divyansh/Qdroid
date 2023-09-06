@@ -1,1 +1,53 @@
+[
+    {
+        "questionNumber": "01",
+        "question": "What is Java?",
+        "answer": "Java is a high-level, object-oriented programming language developed by Sun Microsystems. It is known for its platform independence and is widely used for developing various types of applications."
+    },
+    {
+        "questionNumber": "02",
+        "question": "What is the difference between JDK, JRE, and JVM?",
+        "answer": "JDK (Java Development Kit) is a software package used for developing Java applications. JRE (Java Runtime Environment) is required to run Java applications, and it includes the JVM (Java Virtual Machine), which executes Java bytecode."
+    },
+    {
+        "questionNumber": "03",
+        "question": "What are the key features of Java?",
+        "answer": "Key features of Java include platform independence, object-oriented programming, strong type checking, automatic memory management (garbage collection), and robust exception handling."
+    },
+    {
+        "questionNumber": "04",
+        "question": "Explain the concept of object-oriented programming (OOP) in Java.",
+        "answer": "OOP is a programming paradigm in which software is organized as a collection of objects that can interact with each other. In Java, everything is an object, and it supports concepts like encapsulation, inheritance, and polymorphism."
+    },
+    {
+        "questionNumber": "05",
+        "question": "What is a constructor in Java?",
+        "answer": "A constructor is a special method in a Java class that is called when an object of that class is created. It initializes the object and can be used to set up initial values for its attributes."
+    },
+    {
+        "questionNumber": "06",
+        "question": "What is the difference between 'equals' and '==' in Java?",
+        "answer": "'equals' is a method used to compare the content or values of objects for equality, while '==' is used to compare the references of objects for equality."
+    },
+    {
+        "questionNumber": "07",
+        "question": "What is a Java interface?",
+        "answer": "An interface in Java is a blueprint of a class that defines a set of abstract methods (methods without a body) that implementing classes must provide. It is used to achieve abstraction and multiple inheritance in Java."
+    },
+    {
+        "questionNumber": "08",
+        "question": "What is the difference between 'final', 'finally', and 'finalize' in Java?",
+        "answer": "'final' is a keyword used to make a variable, method, or class unmodifiable. 'finally' is a block used in exception handling to ensure that certain code gets executed regardless of whether an exception is thrown or not. 'finalize' is a method used for cleanup operations on an object before it is garbage collected."
+    },
+    {
+        "questionNumber": "09",
+        "question": "What is multithreading in Java?",
+        "answer": "Multithreading is a concurrent execution of multiple threads within a single Java program. It allows multiple tasks to be executed concurrently, improving the performance and responsiveness of applications."
+    },
+    {
+        "questionNumber": "10",
+        "question": "Explain the concept of exception handling in Java.",
+        "answer": "Exception handling in Java is a mechanism for dealing with runtime errors and exceptional situations. It involves the use of 'try', 'catch', 'finally', and 'throw' keywords to gracefully handle and recover from exceptions that may occur during program execution."
+    }
+]
 
