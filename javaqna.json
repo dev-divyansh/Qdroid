@@ -48,6 +48,358 @@
         "questionNumber": "10",
         "question": "Explain the concept of exception handling in Java.",
         "answer": "Exception handling in Java is a mechanism for dealing with runtime errors and exceptional situations. It involves the use of 'try', 'catch', 'finally', and 'throw' keywords to gracefully handle and recover from exceptions that may occur during program execution."
-    }
+    } ,
+    
+  {
+    "questionNumber": "11",
+    "question": "What is the difference between '==' and '.equals()' in Java when comparing objects?",
+    "answer": "'==' is used to compare object references for equality, checking if they refer to the same memory location. '.equals()' is a method that can be overridden by classes to compare object contents for equality based on their fields or attributes."
+  },
+  {
+    "questionNumber": "12",
+    "question": "Explain the purpose of Java's 'static' keyword and how it is used in methods and variables.",
+    "answer": "The 'static' keyword in Java is used to create class-level methods and variables that belong to the class rather than instances of the class. 'static' methods and variables can be accessed without creating an object of the class."
+  },
+  {
+    "questionNumber": "13",
+    "question": "What is a Java constructor, and how does it differ from a regular method?",
+    "answer": "A Java constructor is a special method used to initialize objects when they are created. It differs from a regular method in that it has the same name as the class, no return type, and is automatically called when an object is instantiated."
+  },
+  {
+    "questionNumber": "14",
+    "question": "Explain the concept of method overloading in Java.",
+    "answer": "Method overloading in Java allows a class to have multiple methods with the same name but different parameter lists. The compiler determines which method to call based on the number and types of arguments passed to the method."
+  },
+  {
+    "questionNumber": "15",
+    "question": "What is the 'this' keyword in Java, and how is it used?",
+    "answer": "The 'this' keyword in Java refers to the current instance of the class. It is used to differentiate between instance variables and method parameters with the same name. 'this' is also used to call other constructors from within a constructor."
+  },
+  {
+    "questionNumber": "16",
+    "question": "Explain the purpose of Java's 'final' keyword when applied to a variable, method, or class.",
+    "answer": "When applied to a variable, 'final' makes it a constant that cannot be modified. When applied to a method, 'final' prevents it from being overridden in subclasses. When applied to a class, 'final' prevents the class from being extended."
+  },
+  {
+    "questionNumber": "17",
+    "question": "What is Java's 'try-catch' block, and how is it used for exception handling?",
+    "answer": "The 'try-catch' block in Java is used for handling exceptions. Code that may throw exceptions is placed in the 'try' block, and if an exception occurs, it is caught and handled in the 'catch' block. This prevents the program from crashing."
+  },
+  {
+    "questionNumber": "18",
+    "question": "Explain the concept of inheritance in Java, and how it promotes code reusability.",
+    "answer": "Inheritance in Java allows a class (subclass or child class) to inherit properties and methods from another class (superclass or parent class). It promotes code reusability by allowing the subclass to reuse and extend the functionality of the superclass."
+  },
+  {
+    "questionNumber": "19",
+    "question": "What is Java's 'super' keyword, and how is it used in constructors and methods?",
+    "answer": "The 'super' keyword in Java is used to refer to the superclass (parent class) of a subclass. In constructors, 'super' is used to call a constructor of the superclass. In methods, 'super' is used to call a method from the superclass when overridden."
+  },
+  {
+    "questionNumber": "20",
+    "question": "Explain the purpose of Java's 'interface' and how it differs from a class.",
+    "answer": "A Java interface defines a contract of methods that classes implementing the interface must provide. Unlike classes, interfaces cannot be instantiated, and a class can implement multiple interfaces, enabling multiple inheritance of behavior."
+  },
+  {
+    "questionNumber": "21",
+    "question": "What is Java's 'abstract' keyword, and how is it used in classes and methods?",
+    "answer": "The 'abstract' keyword in Java is used to create abstract classes and methods. Abstract classes cannot be instantiated and may contain abstract methods that are meant to be implemented by subclasses. Abstract methods have no implementation in the abstract class."
+  },
+  {
+    "questionNumber": "22",
+    "question": "Explain Java's 'ArrayList' class and its advantages over arrays.",
+    "answer": "Java's 'ArrayList' is a dynamic array-like data structure that can grow or shrink in size. It is part of the Java Collections Framework and provides advantages over arrays, such as automatic resizing, dynamic storage, and various utility methods."
+  },
+  {
+    "questionNumber": "23",
+    "question": "What is Java's 'equals' method, and why is it important to override it?",
+    "answer": "Java's 'equals' method is used to compare the contents of objects for equality. It is important to override it in custom classes to define how object equality should be determined based on their fields or attributes."
+  },
+  {
+    "questionNumber": "24",
+    "question": "Explain Java's 'hashCode' method and its significance when working with hash-based data structures.",
+    "answer": "Java's 'hashCode' method returns a hash code value for an object, which is used by hash-based data structures like HashMap and HashSet. It helps efficiently locate objects in these data structures and is important for proper functioning."
+  },
+  {
+    "questionNumber": "25",
+    "question": "What is Java's 'Polymorphism,' and how is it achieved through method overriding?",
+    "answer": "Java's Polymorphism refers to the ability of different classes to be treated as instances of a common superclass. It is achieved through method overriding, where subclasses provide their own implementation of a method defined in the superclass."
+  },
+  {
+    "questionNumber": "26",
+    "question": "Explain the purpose of Java's 'NullPointerException,' and how can it be prevented?",
+    "answer": "Java's 'NullPointerException' is thrown when a program attempts to access or manipulate an object that is not initialized (null). It can be prevented by checking object references for null values before using them."
+  },
+  {
+    "questionNumber": "27",
+    "question": "What is the 'Java Virtual Machine (JVM),' and why is it important in Java programming?",
+    "answer": "The Java Virtual Machine (JVM) is an integral part of Java programming. It interprets and executes Java bytecode, making Java platform-independent. It allows Java applications to run on different operating systems without modification."
+  },
+  {
+    "questionNumber": "28",
+    "question": "Explain the role of Java's 'garbage collector' and how it manages memory.",
+    "answer": "Java's garbage collector is responsible for automatically reclaiming memory used by objects that are no longer in use. It identifies and frees memory occupied by objects without the need for manual memory management."
+  },
+  {
+    "questionNumber": "29",
+    "question": "What are Java's 'checked' and 'unchecked' exceptions, and how do they differ?",
+    "answer": "Java's checked exceptions are exceptions that must be declared in a method's 'throws' clause or handled using 'try-catch.' Unchecked exceptions, also known as runtime exceptions, do not require explicit handling or declaration."
+  },
+  {
+    "questionNumber": "30",
+    "question": "Explain the 'Java Collections Framework' and its core interfaces.",
+    "answer": "The Java Collections Framework provides a unified architecture for working with collections of objects. Its core interfaces include List, Set, Map, Queue, and others, each with various implementing classes for specific data structures and behaviors."
+  },
+  {
+    "questionNumber": "31",
+    "question": "What is Java's 'HashMap,' and how is it used for key-value storage?",
+    "answer": "Java's 'HashMap' is a data structure that stores key-value pairs and provides fast retrieval of values based on their keys. It is part of the Java Collections Framework and is widely used for associative data storage."
+  },
+  {
+    "questionNumber": "32",
+    "question": "Explain the concept of 'multithreading' in Java and its advantages.",
+    "answer": "Multithreading in Java refers to the ability of a program to run multiple threads concurrently. It can improve program responsiveness and efficiency by allowing tasks to execute in parallel, making use of available CPU cores."
+  },
+  {
+    "questionNumber": "33",
+    "question": "What is Java's 'synchronized' keyword, and how is it used for thread safety?",
+    "answer": "Java's 'synchronized' keyword is used to create synchronized blocks or methods to ensure that only one thread can access a critical section of code at a time. It helps prevent data corruption and race conditions in multithreaded applications."
+  },
+  {
+    "questionNumber": "34",
+    "question": "What is Java's 'Exception Handling,' and how are exceptions propagated up the call stack?",
+    "answer": "Exception handling in Java involves using 'try-catch' blocks to handle exceptions. If an exception is not caught in a method, it is propagated up the call stack to the calling method, continuing until it is caught or the program terminates."
+  },
+  {
+    "questionNumber": "35",
+    "question": "Explain the concept of Java's 'serialization' and 'deserialization.'",
+    "answer": "Java's serialization is the process of converting an object into a byte stream, which can be stored or transmitted. Deserialization is the reverse process of recreating an object from a byte stream."
+  },
+  {
+    "questionNumber": "36",
+    "question": "What are Java's 'inner classes,' and how do they differ from regular (outer) classes?",
+    "answer": "Inner classes in Java are classes defined within other classes. They have access to the enclosing class's members and can be used for encapsulation. They differ from regular classes in their scope and relationship to the outer class."
+  },
+  {
+    "questionNumber": "37",
+    "question": "Explain Java's 'String' class, and how is it different from using character arrays?",
+    "answer": "Java's 'String' class represents a sequence of characters and provides various methods for string manipulation. It differs from character arrays in that strings are immutable, making them more convenient for many operations."
+  },
+  {
+    "questionNumber": "38",
+    "question": "What is 'JavaFX,' and how does it differ from 'Swing' for creating graphical user interfaces in Java?",
+    "answer": "JavaFX is a modern platform for building rich client applications with a focus on user interfaces. It differs from Swing in terms of features, design, and capabilities, offering a more advanced and versatile UI toolkit."
+  },
+  {
+    "questionNumber": "39",
+    "question": "Explain the concept of 'method chaining' in Java and provide an example.",
+    "answer": "Method chaining in Java involves calling multiple methods on an object in a single line of code. It returns the object itself after each method call, allowing for concise and readable code. Example: 'object.method1().method2().method3();'"
+  },
+  {
+    "questionNumber": "40",
+    "question": "What is Java's 'reflection,' and how is it used to inspect and manipulate class information at runtime?",
+    "answer": "Java's reflection allows you to inspect and manipulate class information, such as fields, methods, and constructors, at runtime. It provides a way to access and modify class members dynamically, although it should be used with caution."
+  },
+  {
+    "questionNumber": "41",
+    "question": "Explain the purpose of 'JavaBeans' and their conventions for designing reusable components.",
+    "answer": "JavaBeans are reusable software components that follow specific conventions, such as providing getter and setter methods for properties. They are designed for easy integration and use in visual development environments."
+  },
+  {
+    "questionNumber": "42",
+    "question": "What is the 'Java Naming and Directory Interface (JNDI),' and how is it used for directory services?",
+    "answer": "The Java Naming and Directory Interface (JNDI) is an API for accessing directory services like LDAP from Java applications. It allows Java programs to interact with naming and directory services in a platform-independent way."
+  },
+  {
+    "questionNumber": "43",
+    "question": "Explain Java's 'anonymous inner classes' and provide an example.",
+    "answer": "Anonymous inner classes in Java are inner classes without a name. They are often used for one-time implementation of interfaces or abstract classes. Example: 'Runnable r = new Runnable() { public void run() { /* implementation */ } };'"
+  },
+  {
+    "questionNumber": "44",
+    "question": "What is 'Java Native Interface (JNI),' and how is it used for integrating Java with native code?",
+    "answer": "The Java Native Interface (JNI) is a programming framework that allows Java code to call and be called by native applications and libraries written in languages like C and C++. It is used for integrating Java with native code for performance-critical tasks."
+  },
+  {
+    "questionNumber": "45",
+    "question": "Explain the 'equals' and 'hashCode' contract in Java when overriding 'equals.'",
+    "answer": "When overriding the 'equals' method in Java, it is essential to follow the contract, which states that if two objects are considered equal (according to 'equals'), their 'hashCode' values must be the same. Failing to do so can lead to unexpected behavior in collections like HashMap."
+  },
+  {
+    "questionNumber": "46",
+    "question": "What is 'Java Security Manager,' and how does it provide security in Java applications?",
+    "answer": "Java Security Manager is a security feature in Java that provides a way to enforce access controls and restrict the actions that a Java application can perform. It helps protect against unauthorized access and malicious code execution."
+  },
+  {
+    "questionNumber": "47",
+    "question": "Explain the 'Diamond Operator' in Java and its role in type inference for generics.",
+    "answer": "The 'Diamond Operator' (<>) in Java is used to simplify the instantiation of generic classes. It allows type inference to automatically determine the generic type based on the context, reducing the need for explicit type declarations."
+  },
+  {
+    "questionNumber": "48",
+    "question": "What are 'Java Annotations,' and how are they used in Java programming?",
+    "answer": "Java Annotations are metadata that can be added to code elements like classes, methods, and fields. They provide additional information that can be used by tools and frameworks. Annotations are commonly used for tasks like code generation, documentation, and configuration."
+  },
+  {
+    "questionNumber": "49",
+    "question": "Explain the purpose of 'Java Logger' and its advantages over traditional logging techniques.",
+    "answer": "Java Logger is a built-in logging framework that allows developers to record application events and errors. It provides advantages over traditional logging techniques, such as log level filtering, log formatting, and flexibility in log output destinations."
+  },
+  {
+    "questionNumber": "50",
+    "question": "What is 'Java Swing,' and how is it used for creating graphical user interfaces?",
+    "answer": "Java Swing is a GUI toolkit for creating desktop applications with graphical user interfaces (GUIs). It provides a wide range of components like buttons, menus, and panels and supports platform-independent GUI development."
+  },
+  {
+    "questionNumber": "51",
+    "question": "Explain the 'transient' keyword in Java and its role in object serialization.",
+    "answer": "The 'transient' keyword in Java is used to mark a field as non-serializable. When an object is serialized, transient fields are not included in the serialized representation. It is often used for fields that should not be persisted during object serialization."
+  },
+  {
+    "questionNumber": "52",
+    "question": "What is 'JavaFX,' and how does it differ from 'Java AWT' and 'Java Swing' for building graphical user interfaces?",
+    "answer": "JavaFX is a modern framework for creating rich client applications with a focus on user interfaces. It differs from Java AWT and Java Swing in terms of features, design, and capabilities, offering a more advanced and versatile UI toolkit."
+  },
+  {
+    "questionNumber": "53",
+    "question": "Explain 'Java Object Serialization' and its role in converting objects to byte streams.",
+    "answer": "Java Object Serialization is the process of converting objects into a byte stream that can be saved to a file, sent over a network, or otherwise persisted. It allows objects to be recreated from the byte stream, maintaining their state and structure."
+  },
+  {
+    "questionNumber": "54",
+    "question": "What is 'Java Naming and Directory Interface (JNDI),' and how is it used for accessing directory services?",
+    "answer": "The Java Naming and Directory Interface (JNDI) is an API for accessing directory services like LDAP from Java applications. It provides a standard way to interact with naming and directory services, enabling Java programs to perform operations like lookup and binding."
+  },
+  {
+    "questionNumber": "55",
+    "question": "Explain the concept of 'JavaBeans' and their role in creating reusable components.",
+    "answer": "JavaBeans are reusable software components that adhere to specific conventions. They typically include getter and setter methods for properties, making them suitable for use in visual development environments and easy integration into other applications."
+  },
+  {
+    "questionNumber": "56",
+    "question": "What is the 'Observer Pattern' in Java, and how is it implemented?",
+    "answer": "The Observer Pattern in Java is a behavioral design pattern where an object (the subject) maintains a list of its dependents (observers) and notifies them of state changes. It is commonly used in implementing event handling and listener mechanisms."
+  },
+  {
+    "questionNumber": "57",
+    "question": "Explain the 'volatile' keyword in Java and its role in multithreading.",
+    "answer": "The 'volatile' keyword in Java is used to declare a variable as volatile, indicating that its value may be modified by multiple threads. It ensures that reads and writes to the variable are atomic and that changes are visible to all threads."
+  },
+  {
+    "questionNumber": "58",
+    "question": "What are 'Checked Exceptions' and 'Unchecked Exceptions' in Java, and how do they differ?",
+    "answer": "Checked exceptions are exceptions that must be either caught using 'try-catch' blocks or declared in the method's 'throws' clause. Unchecked exceptions, also known as runtime exceptions, do not require explicit handling or declaration."
+  },
+  {
+    "questionNumber": "59",
+    "question": "Explain 'Java Generics' and how they improve type safety and code reusability.",
+    "answer": "Java Generics allow developers to create classes, interfaces, and methods that operate on types as parameters. They improve type safety by enforcing compile-time type checks and promote code reusability by creating generic, reusable components."
+  },
+  {
+    "questionNumber": "60",
+    "question": "What is 'JavaFX,' and how is it used for creating modern user interfaces in Java applications?",
+    "answer": "JavaFX is a platform for building modern, feature-rich user interfaces in Java applications. It provides a rich set of UI controls, layouts, styling, and animations, making it suitable for creating visually appealing and interactive applications."
+  },
+  {
+    "questionNumber": "61",
+    "question": "Explain the 'Java ClassLoader' hierarchy and its role in loading classes at runtime.",
+    "answer": "The Java ClassLoader hierarchy is responsible for loading classes into memory at runtime. It follows a parent-child delegation model, where each ClassLoader tries to delegate class loading to its parent before attempting to load the class itself."
+  },
+  {
+    "questionNumber": "62",
+    "question": "What is 'Java RMI' (Remote Method Invocation), and how is it used for distributed computing?",
+    "answer": "Java RMI is a mechanism for invoking methods on remote objects in a distributed system. It allows Java applications to communicate and invoke methods on objects located on remote JVMs, enabling distributed computing and remote service invocation."
+  },
+  {
+    "questionNumber": "63",
+    "question": "Explain the 'Java Stream API' and its advantages for working with collections and data manipulation.",
+    "answer": "The Java Stream API provides a functional approach to working with collections and data manipulation. It offers advantages like concise and expressive code, parallel processing, and built-in operations for filtering, mapping, and reducing data."
+  },
+  {
+    "questionNumber": "64",
+    "question": "What are 'Java Annotations,' and how are they used in the Java programming language?",
+    "answer": "Java Annotations are metadata that can be added to code elements like classes, methods, and fields. They provide additional information that can be used by tools, frameworks, and libraries to configure or generate code and documentation."
+  },
+  {
+    "questionNumber": "65",
+    "question": "What is the 'try-with-resources' statement in Java, and how does it simplify resource management?",
+    "answer": "The 'try-with-resources' statement in Java simplifies resource management by automatically closing resources (e.g., streams, connections) when they are no longer needed. It ensures that resources are properly released, even if an exception occurs within the 'try' block."
+  },
+  {
+    "questionNumber": "66",
+    "question": "Explain the 'JavaFX Scene Builder' and its role in designing JavaFX user interfaces.",
+    "answer": "JavaFX Scene Builder is a visual design tool for creating JavaFX user interfaces. It allows developers to design UI layouts and components visually, generating FXML files that can be used in Java applications to define the UI."
+  },
+  {
+    "questionNumber": "67",
+    "question": "What is 'JavaFX CSS,' and how is it used to style JavaFX applications?",
+    "answer": "JavaFX CSS is a styling mechanism that allows developers to define the appearance of JavaFX user interfaces using CSS-like syntax. It provides a way to separate the presentation from the logic in JavaFX applications."
+  },
+  {
+    "questionNumber": "68",
+    "question": "Explain the concept of 'JavaFX Properties' and their role in data binding and UI updates.",
+    "answer": "JavaFX Properties are observable data objects that can be used for data binding and automatic UI updates. They allow developers to create dynamic links between data models and user interfaces, ensuring that changes in one reflect in the other."
+  },
+  {
+    "questionNumber": "69",
+    "question": "What is 'JavaFX FXML,' and how is it used to define user interfaces?",
+    "answer": "JavaFX FXML is an XML-based markup language used to define the structure and layout of JavaFX user interfaces. It allows developers to separate the UI definition from the application logic, making UI design and development more manageable."
+  },
+  {
+    "questionNumber": "70",
+    "question": "Explain the concept of 'JavaFX Event Handling' and how it enables user interaction in JavaFX applications.",
+    "answer": "JavaFX Event Handling allows developers to respond to user interactions like mouse clicks and key presses. It involves registering event handlers and attaching them to UI components to execute specific actions in response to events."
+  },
+  {
+    "questionNumber": "71",
+    "question": "What is 'JavaFX Animation,' and how is it used to create animations in JavaFX applications?",
+    "answer": "JavaFX Animation is a feature that allows developers to create animations and transitions in JavaFX applications. It provides classes and APIs for defining animation effects like fades, rotations, and transitions between UI elements."
+  },
+  {
+    "questionNumber": "72",
+    "question": "Explain the 'JavaFX TableView' and its role in displaying tabular data in JavaFX applications.",
+    "answer": "The JavaFX TableView is a UI control used for displaying tabular data in a grid-like format. It allows developers to create interactive tables with columns, rows, and cell editing capabilities, making it suitable for data-driven applications."
+  },
+  {
+    "questionNumber": "73",
+    "question": "What is 'JavaFX WebView,' and how is it used to display web content in JavaFX applications?",
+    "answer": "JavaFX WebView is a UI control that allows developers to embed web content, including HTML pages and web applications, within a JavaFX application. It provides a way to integrate web-based functionality into desktop applications."
+  },
+  {
+    "questionNumber": "74",
+    "question": "Explain the concept of 'JavaFX CSS Pseudo-classes' and their role in styling UI components.",
+    "answer": "JavaFX CSS Pseudo-classes are special selectors that allow developers to style UI components based on their state or characteristics. They provide a way to define styles for components in specific conditions, such as when they are hovered over or selected."
+  },
+  {
+    "questionNumber": "75",
+    "question": "What is 'JavaFX Property Binding,' and how is it used to synchronize property values?",
+    "answer": "JavaFX Property Binding is a mechanism for synchronizing the values of JavaFX properties. It allows developers to create dynamic relationships between properties, ensuring that changes in one property are reflected in another."
+  },
+  {
+    "questionNumber": "76",
+    "question": "Explain the concept of 'JavaFX Layouts' and their role in arranging UI components.",
+    "answer": "JavaFX Layouts are container classes used to arrange UI components in a specific way within a JavaFX scene or window. They help ensure proper alignment, sizing, and positioning of components to create a well-structured user interface."
+  },
+  {
+    "questionNumber": "77",
+    "question": "What is 'JavaFX MouseEvent,' and how is it used to handle mouse-related events in JavaFX applications?",
+    "answer": "JavaFX MouseEvent is an event class used to handle mouse-related events like clicks, movements, and drags in JavaFX applications. Developers can register event handlers to respond to these mouse events and implement custom behavior."
+  },
+  {
+    "questionNumber": "78",
+    "question": "What is 'JavaFX KeyEvent,' and how is it used to handle keyboard-related events in JavaFX applications?",
+    "answer": "JavaFX KeyEvent is an event class used to handle keyboard-related events like key presses and releases in JavaFX applications. Developers can register event handlers to respond to these keyboard events and implement custom interactions."
+  },
+  {
+    "questionNumber": "79",
+    "question": "Explain the concept of 'JavaFX ListView' and its role in displaying scrollable lists of items.",
+    "answer": "The JavaFX ListView is a UI control used for displaying scrollable lists of items. It provides a flexible way to create lists that can contain text, images, or custom content, making it suitable for various list-based UIs."
+  },
+  {
+    "questionNumber": "80",
+    "question": "What is 'JavaFX CSS Styling,' and how is it used to apply styles to JavaFX user interface components?",
+    "answer": "JavaFX CSS Styling is a mechanism for applying styles to JavaFX user interface components to control their appearance. It allows developers to define styles for individual components or apply styles globally to create visually appealing and consistent UIs."
+  }
 ]
+
 
