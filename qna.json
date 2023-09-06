@@ -2,277 +2,196 @@
   {
     "questionNumber": "01",
     "question": "What is Android?",
-    "answer": "Android is an operating system designed primarily for touchscreen mobile devices such as smartphones and tablets.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Android is an operating system designed primarily for touchscreen mobile devices such as smartphones and tablets."
   },
   {
     "questionNumber": "02",
     "question": "What are the key components of the Android architecture?",
-    "answer": "The key components of the Android architecture are the Linux Kernel, Libraries, Android Runtime, Application Framework, and Applications.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The key components of the Android architecture are the Linux Kernel, Libraries, Android Runtime, Application Framework, and Applications."
   },
   {
     "questionNumber": "03",
     "question": "Explain the Android application components.",
-    "answer": "Android application components include Activities, Services, Broadcast Receivers, and Content Providers. These components help in building the user interface and managing various aspects of an app's functionality.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Android application components include Activities, Services, Broadcast Receivers, and Content Providers. These components help in building the user interface and managing various aspects of an app's functionality."
   },
   {
     "questionNumber": "04",
     "question": "What is an Activity in Android?",
-    "answer": "An Activity is a single, focused screen that the user interacts with in an Android app. It represents a visual user interface element.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "An Activity is a single, focused screen that the user interacts with in an Android app. It represents a visual user interface element."
   },
   {
     "questionNumber": "05",
     "question": "Explain the difference between a Fragment and an Activity.",
-    "answer": "An Activity represents a single screen with a user interface, while a Fragment is a modular section of an Activity that can be combined with other Fragments to build a multi-pane user interface.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "An Activity represents a single screen with a user interface, while a Fragment is a modular section of an Activity that can be combined with other Fragments to build a multi-pane user interface."
   },
   {
     "questionNumber": "06",
     "question": "What is an Intent in Android?",
-    "answer": "An Intent is a messaging object used to request an action from another component within the same app or from a different app. It is used for communication between Android components like Activities, Services, and Broadcast Receivers.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "An Intent is a messaging object used to request an action from another component within the same app or from a different app. It is used for communication between Android components like Activities, Services, and Broadcast Receivers."
   },
   {
     "questionNumber": "07",
     "question": "What is the AndroidManifest.xml file?",
-    "answer": "The AndroidManifest.xml file is a required configuration file in every Android app. It contains essential information about the app, such as its components, permissions, and version information.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The AndroidManifest.xml file is a required configuration file in every Android app. It contains essential information about the app, such as its components, permissions, and version information."
   },
   {
     "questionNumber": "08",
     "question": "What is a Service in Android?",
-    "answer": "A Service is a background component that performs long-running operations without a user interface. It is used for tasks such as playing music, handling network requests, and performing background processing.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "A Service is a background component that performs long-running operations without a user interface. It is used for tasks such as playing music, handling network requests, and performing background processing."
   },
   {
     "questionNumber": "09",
     "question": "Explain the concept of Content Providers in Android.",
-    "answer": "Content Providers are used to manage and share structured data between different applications. They allow one app to access and manipulate data stored in another app's database, enabling data sharing and data security.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Content Providers are used to manage and share structured data between different applications. They allow one app to access and manipulate data stored in another app's database, enabling data sharing and data security."
   },
   {
     "questionNumber": "10",
     "question": "What is the role of the Android Application Framework?",
-    "answer": "The Android Application Framework provides a set of essential services and APIs that developers can use to build their applications. It simplifies common tasks like handling user input, managing app resources, and facilitating communication between app components.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android Application Framework provides a set of essential services and APIs that developers can use to build their applications. It simplifies common tasks like handling user input, managing app resources, and facilitating communication between app components."
   },
   {
     "questionNumber": "11",
     "question": "What is an APK in Android?",
-    "answer": "APK stands for Android Package. It is the file format used to distribute and install Android applications. An APK file contains all the necessary files and metadata required for an app to run on an Android device.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "APK stands for Android Package. It is the file format used to distribute and install Android applications. An APK file contains all the necessary files and metadata required for an app to run on an Android device."
   },
   {
     "questionNumber": "12",
     "question": "What is the Android Emulator?",
-    "answer": "The Android Emulator is a software tool that allows developers to test and debug Android applications on their computer. It simulates the behavior of an Android device and can be used to run apps on different Android versions and screen sizes.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android Emulator is a software tool that allows developers to test and debug Android applications on their computer. It simulates the behavior of an Android device and can be used to run apps on different Android versions and screen sizes."
   },
   {
     "questionNumber": "13",
     "question": "What is ADB in Android?",
-    "answer": "ADB stands for Android Debug Bridge. It is a command-line tool that allows developers to communicate with an Android device or emulator. ADB is used for tasks such as installing apps, debugging, and transferring files to and from a device.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "ADB stands for Android Debug Bridge. It is a command-line tool that allows developers to communicate with an Android device or emulator. ADB is used for tasks such as installing apps, debugging, and transferring files to and from a device."
   },
   {
     "questionNumber": "14",
     "question": "What is the difference between DPI and PPI in Android?",
-    "answer": "DPI (Dots Per Inch) refers to the pixel density of a screen, while PPI (Pixels Per Inch) refers to the pixel density of an image or print. In Android, DPI is used to classify device screens into different density buckets, such as ldpi, mdpi, hdpi, xhdpi, etc.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "DPI (Dots Per Inch) refers to the pixel density of a screen, while PPI (Pixels Per Inch) refers to the pixel density of an image or print. In Android, DPI is used to classify device screens into different density buckets, such as ldpi, mdpi, hdpi, xhdpi, etc."
   },
   {
     "questionNumber": "15",
     "question": "What is the significance of the 'adb shell' command?",
-    "answer": "The 'adb shell' command allows developers to interact with the Android device's shell (command-line interface) directly. It can be used for tasks like accessing the device's file system, executing commands, and debugging applications at a lower level.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The 'adb shell' command allows developers to interact with the Android device's shell (command-line interface) directly. It can be used for tasks like accessing the device's file system, executing commands, and debugging applications at a lower level."
   },
- 
   {
     "questionNumber": "16",
     "question": "What is the Android NDK, and when is it used?",
-    "answer": "The Android NDK (Native Development Kit) is a set of tools that allow developers to write parts of their Android applications in native code, such as C and C++. It is typically used for performance-critical tasks or when integrating with existing native libraries.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android NDK (Native Development Kit) is a set of tools that allow developers to write parts of their Android applications in native code, such as C and C++. It is typically used for performance-critical tasks or when integrating with existing native libraries."
   },
   {
     "questionNumber": "17",
     "question": "Explain the concept of Multithreading in Android.",
-    "answer": "Multithreading in Android refers to the ability of an application to run multiple threads concurrently. It is used to improve the responsiveness of an app, perform background tasks, and prevent blocking the user interface thread (UI thread).",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Multithreading in Android refers to the ability of an application to run multiple threads concurrently. It is used to improve the responsiveness of an app, perform background tasks, and prevent blocking the user interface thread (UI thread)."
   },
   {
     "questionNumber": "18",
     "question": "What is the Android Support Library (AndroidX)?",
-    "answer": "The Android Support Library, now known as AndroidX, is a set of libraries provided by Google to support newer Android features on older devices. It simplifies the process of creating backward-compatible Android applications.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android Support Library, now known as AndroidX, is a set of libraries provided by Google to support newer Android features on older devices. It simplifies the process of creating backward-compatible Android applications."
   },
   {
     "questionNumber": "19",
     "question": "What is the significance of the 'ViewModel' in Android Architecture Components?",
-    "answer": "The ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes (e.g., screen rotation) and helps separate UI-related data from the UI controller (Activity or Fragment).",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes (e.g., screen rotation) and helps separate UI-related data from the UI controller (Activity or Fragment)."
   },
   {
     "questionNumber": "20",
     "question": "What is ProGuard in Android, and how does it improve app security?",
-    "answer": "ProGuard is a code obfuscation and optimization tool used in Android development to shrink the size of the APK and make it more difficult for reverse engineering. It renames classes and methods, making it harder for attackers to understand and modify the code.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "ProGuard is a code obfuscation and optimization tool used in Android development to shrink the size of the APK and make it more difficult for reverse engineering. It renames classes and methods, making it harder for attackers to understand and modify the code."
   },
   {
     "questionNumber": "21",
     "question": "Explain the purpose of the 'R.java' file in Android development.",
-    "answer": "The 'R.java' file is an auto-generated resource file in Android that contains references to all resources used in an application, such as layouts, images, and strings. It is used by the Android system to access these resources at runtime.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The 'R.java' file is an auto-generated resource file in Android that contains references to all resources used in an application, such as layouts, images, and strings. It is used by the Android system to access these resources at runtime."
   },
   {
     "questionNumber": "22",
     "question": "What is the Android Gradle Plugin, and how does it simplify app building?",
-    "answer": "The Android Gradle Plugin is a build tool used to automate and manage the build process of Android applications. It simplifies tasks like dependency management, resource compilation, and code signing, making app development more efficient.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android Gradle Plugin is a build tool used to automate and manage the build process of Android applications. It simplifies tasks like dependency management, resource compilation, and code signing, making app development more efficient."
   },
   {
     "questionNumber": "23",
     "question": "Explain the difference between Serializable and Parcelable in Android.",
-    "answer": "Serializable and Parcelable are both interfaces used to pass data between Android components. Serializable is slower and less efficient but simpler to implement, while Parcelable is more efficient but requires more coding effort for customization.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Serializable and Parcelable are both interfaces used to pass data between Android components. Serializable is slower and less efficient but simpler to implement, while Parcelable is more efficient but requires more coding effort for customization."
   },
   {
     "questionNumber": "24",
     "question": "What is the purpose of the 'adb logcat' command in Android debugging?",
-    "answer": "The 'adb logcat' command is used to view the system log messages from an Android device or emulator. It is a valuable tool for debugging and diagnosing issues in Android applications by displaying logs generated by the operating system and apps.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The 'adb logcat' command is used to view the system log messages from an Android device or emulator. It is a valuable tool for debugging and diagnosing issues in Android applications by displaying logs generated by the operating system and apps."
   },
   {
     "questionNumber": "25",
     "question": "Explain the role of the 'res' folder in an Android project.",
-    "answer": "The 'res' (resources) folder in an Android project contains all non-code resources, such as layouts, drawables, strings, and XML files. These resources are used to define the user interface and other elements of an Android application.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
-  } ,
+    "answer": "The 'res' (resources) folder in an Android project contains all non-code resources, such as layouts, drawables, strings, and XML files. These resources are used to define the user interface and other elements of an Android application."
+  },
   {
     "questionNumber": "26",
     "question": "What is the Android Activity Lifecycle, and what are its key methods?",
-    "answer": "The Android Activity Lifecycle represents the various states an Activity can go through, such as onCreate, onStart, onResume, onPause, onStop, and onDestroy. These methods allow developers to manage the behavior of an Activity during its lifecycle.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Android Activity Lifecycle represents the various states an Activity can go through, such as onCreate, onStart, onResume, onPause, onStop, and onDestroy. These methods allow developers to manage the behavior of an Activity during its lifecycle."
   },
   {
     "questionNumber": "27",
     "question": "Explain the concept of Fragments in Android and when they should be used.",
-    "answer": "Fragments are modular components in Android that represent parts of a user interface and can be combined within an Activity to create flexible UI designs. They are typically used to create responsive layouts for both phones and tablets.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Fragments are modular components in Android that represent parts of a user interface and can be combined within an Activity to create flexible UI designs. They are typically used to create responsive layouts for both phones and tablets."
   },
   {
     "questionNumber": "28",
     "question": "What is the purpose of an Android BroadcastReceiver?",
-    "answer": "A BroadcastReceiver is used to respond to system-wide broadcast announcements, such as device battery status changes, network connectivity changes, and custom events. It allows an application to receive and react to these events even when it's not currently running.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "A BroadcastReceiver is used to respond to system-wide broadcast announcements, such as device battery status changes, network connectivity changes, and custom events. It allows an application to receive and react to these events even when it's not currently running."
   },
   {
     "questionNumber": "29",
     "question": "What is the difference between AsyncTask and ThreadPoolExecutor in Android for background tasks?",
-    "answer": "AsyncTask is a simple way to perform background tasks in Android, but it's limited in terms of control and scalability. ThreadPoolExecutor offers more control over thread management and is suitable for more complex and concurrent tasks.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "AsyncTask is a simple way to perform background tasks in Android, but it's limited in terms of control and scalability. ThreadPoolExecutor offers more control over thread management and is suitable for more complex and concurrent tasks."
   },
   {
     "questionNumber": "30",
     "question": "Explain the concept of Android App Permissions and why they are important.",
-    "answer": "Android App Permissions are security features that allow or deny an app access to certain device resources and data, such as the camera, contacts, and location. They are crucial for protecting user privacy and ensuring app security.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Android App Permissions are security features that allow or deny an app access to certain device resources and data, such as the camera, contacts, and location. They are crucial for protecting user privacy and ensuring app security."
   },
   {
     "questionNumber": "31",
     "question": "What is the Android Material Design, and how does it enhance the user experience?",
-    "answer": "Material Design is a design language developed by Google for creating visually appealing and consistent user interfaces across Android apps. It emphasizes clean and responsive design, smooth animations, and meaningful motion to improve the user experience.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Material Design is a design language developed by Google for creating visually appealing and consistent user interfaces across Android apps. It emphasizes clean and responsive design, smooth animations, and meaningful motion to improve the user experience."
   },
   {
     "questionNumber": "32",
     "question": "Explain the concept of Dependency Injection in Android, and why is it used?",
-    "answer": "Dependency Injection is a design pattern used in Android development to improve code modularity and testability. It involves injecting dependencies (e.g., objects or services) into a class rather than having the class create them. This promotes loose coupling and easier testing.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Dependency Injection is a design pattern used in Android development to improve code modularity and testability. It involves injecting dependencies (e.g., objects or services) into a class rather than having the class create them. This promotes loose coupling and easier testing."
   },
   {
     "questionNumber": "33",
     "question": "What is the purpose of Proximity Sensor in Android devices?",
-    "answer": "The Proximity Sensor in Android devices is used to detect the presence of nearby objects, typically when a user places the device near their ear during a phone call. It helps in turning off the screen to prevent accidental touches and conserves battery life.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The Proximity Sensor in Android devices is used to detect the presence of nearby objects, typically when a user places the device near their ear during a phone call. It helps in turning off the screen to prevent accidental touches and conserves battery life."
   },
   {
     "questionNumber": "34",
     "question": "Explain the role of SharedPreferences in Android app development.",
-    "answer": "SharedPreferences is a way to store simple data (key-value pairs) persistently in an Android app. It is often used to store user preferences, settings, and other small amounts of data that should persist between app sessions.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "SharedPreferences is a way to store simple data (key-value pairs) persistently in an Android app. It is often used to store user preferences, settings, and other small amounts of data that should persist between app sessions."
   },
   {
     "questionNumber": "35",
     "question": "What is the Android ViewBinding feature, and how does it simplify UI development?",
-    "answer": "ViewBinding is a feature introduced in Android to simplify UI development by generating a binding class for each XML layout file. It allows developers to access and manipulate UI elements directly in a type-safe manner, reducing the risk of runtime errors.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "ViewBinding is a feature introduced in Android to simplify UI development by generating a binding class for each XML layout file. It allows developers to access and manipulate UI elements directly in a type-safe manner, reducing the risk of runtime errors."
   },
   {
     "questionNumber": "36",
     "question": "Explain the concept of ViewModel in the context of Android Architecture Components.",
-    "answer": "ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes and helps in separating the presentation layer from the data layer in Android applications.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes and helps in separating the presentation layer from the data layer in Android applications."
   },
   {
     "questionNumber": "37",
     "question": "What is Data Binding in Android, and how does it simplify UI development?",
-    "answer": "Data Binding is a library that allows developers to bind UI components in the layout files directly to data sources, reducing the need for boilerplate code. It simplifies UI updates and helps maintain a clean separation between the UI and the data.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "Data Binding is a library that allows developers to bind UI components in the layout files directly to data sources, reducing the need for boilerplate code. It simplifies UI updates and helps maintain a clean separation between the UI and the data."
   },
   {
     "questionNumber": "38",
     "question": "Explain the purpose of the 'adb install' command in Android development.",
-    "answer": "The 'adb install' command is used to install an Android application (APK file) onto a connected device or emulator. It is a common way to test and deploy applications during development and testing phases.",
-    "contributor": "Divyansh Pratap Singh",
-    "contributor-social": "https://github.com/dev-divyansh"
+    "answer": "The 'adb install' command is used to install an Android application (APK file) onto a connected device or emulator. It is a common way to test and deploy applications during development and testing phases."
   },
- {
-  "questionNumber": "39",
-  "question": "What is the Android JobScheduler, and how does it help in managing background tasks?",
-  "answer": "JobScheduler is an Android API that allows developers to schedule and manage background tasks efficiently. It can defer tasks to run when certain conditions are met, such as when the device is charging, connected to Wi-Fi, or when there is network connectivity. This helps in optimizing power consumption and network usage, making it a useful tool for managing background tasks in a battery-efficient manner.",
-  "contributor": "Divyansh Pratap Singh",
-  "contributor-social": "https://github.com/dev-divyansh"
-}
-
+  {
+    "questionNumber": "39",
+    "question": "What is the Android JobScheduler, and how does it help in managing background tasks?",
+    "answer": "JobScheduler is an Android API that allows developers to schedule and manage background tasks efficiently. It can defer tasks to run when certain conditions are met, such as when the device is charging, connected to Wi-Fi, or when there is network connectivity. This helps in optimizing power consumption and network usage, making it a useful tool for managing background tasks in a battery-efficient manner."
+  }
 ]
-
