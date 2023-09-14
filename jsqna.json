@@ -1,1 +1,502 @@
-
+[
+  {
+    "questionNumber": "01",
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a high-level, interpreted programming language used for adding interactivity and functionality to web pages. It is primarily executed in web browsers but can also be used on the server-side with Node.js."
+  },
+  {
+    "questionNumber": "02",
+    "question": "Explain the difference between 'let,' 'const,' and 'var' in JavaScript for variable declaration.",
+    "answer": "'var' is function-scoped, 'let' and 'const' are block-scoped. 'let' allows reassignment, while 'const' does not and should be used for values that should not change."
+  },
+  {
+    "questionNumber": "03",
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. It 'closes over' these variables."
+  },
+  {
+    "questionNumber": "04",
+    "question": "Explain event delegation in JavaScript.",
+    "answer": "Event delegation is a technique where you attach a single event listener to a common ancestor of multiple elements instead of attaching individual listeners to each element. It is more efficient and reduces memory usage."
+  },
+  {
+    "questionNumber": "05",
+    "question": "What is 'this' keyword in JavaScript?",
+    "answer": "The 'this' keyword refers to the current context, which varies depending on how and where it is used. In a global context, it refers to the global object (e.g., 'window' in browsers), while inside a function, it can refer to the function's execution context."
+  },
+  {
+    "questionNumber": "06",
+    "question": "Explain the concept of hoisting in JavaScript.",
+    "answer": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they are declared in the code."
+  },
+  {
+    "questionNumber": "07",
+    "question": "What is the difference between '==' and '===' operators in JavaScript?",
+    "answer": "'==' is the equality operator, which performs type coercion, while '===' is the strict equality operator, which compares both value and type without coercion."
+  },
+  {
+    "questionNumber": "08",
+    "question": "What is the purpose of the 'bind()' method in JavaScript?",
+    "answer": "The 'bind()' method is used to create a new function with a specified 'this' value and initial arguments. It allows you to explicitly set the context in which a function will be invoked."
+  },
+  {
+    "questionNumber": "09",
+    "question": "What is a promise in JavaScript?",
+    "answer": "A promise is an object representing the eventual completion or failure of an asynchronous operation. It provides a more structured way to handle asynchronous code compared to callbacks."
+  },
+  {
+    "questionNumber": "10",
+    "question": "Explain the 'prototype' property in JavaScript and its role in inheritance.",
+    "answer": "The 'prototype' property is used to add properties and methods to objects in JavaScript. It plays a crucial role in prototype-based inheritance, where objects can inherit properties and methods from their prototype objects."
+  },
+  {
+    "questionNumber": "11",
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "answer": "'null' is an intentional absence of any object value, while 'undefined' is a variable that has been declared but has not been assigned a value."
+  },
+  {
+    "questionNumber": "12",
+    "question": "How does asynchronous programming work in JavaScript?",
+    "answer": "Asynchronous programming in JavaScript is achieved using callbacks, Promises, and async/await. It allows non-blocking execution of code, ensuring that time-consuming tasks do not block the main thread."
+  },
+  {
+    "questionNumber": "13",
+    "question": "What is the Event Loop in JavaScript, and how does it work?",
+    "answer": "The Event Loop is a core concept in JavaScript's concurrency model. It continuously checks the call stack and the message queue, executing functions in a non-blocking, asynchronous manner."
+  },
+  {
+    "questionNumber": "14",
+    "question": "What is the 'typeof' operator in JavaScript, and how is it used?",
+    "answer": "The 'typeof' operator is used to determine the data type of a variable or expression. It returns a string representing the data type, such as 'number,' 'string,' 'object,' 'function,' etc."
+  },
+  {
+    "questionNumber": "15",
+    "question": "Explain the concept of IIFE (Immediately Invoked Function Expression) in JavaScript.",
+    "answer": "An IIFE is a JavaScript function that is executed immediately after it is defined. It is often used to create a private scope for variables and avoid polluting the global scope."
+  },
+  {
+    "questionNumber": "16",
+    "question": "What is the purpose of 'localStorage' and 'sessionStorage' in web development?",
+    "answer": "'localStorage' and 'sessionStorage' are web storage mechanisms that allow developers to store data on the client-side. 'localStorage' stores data persistently, while 'sessionStorage' stores data for a session."
+  },
+  {
+    "questionNumber": "17",
+    "question": "Explain the concept of JSON and its usage in JavaScript.",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format. In JavaScript, it is used to represent and exchange data between a server and a client, often in API communication."
+  },
+  {
+    "questionNumber": "18",
+    "question": "What is a callback function in JavaScript, and how is it used?",
+    "answer": "A callback function is a function passed as an argument to another function and is executed later when the first function has completed its operation. Callbacks are commonly used in asynchronous code."
+  },
+  {
+    "questionNumber": "19",
+    "question": "What is the purpose of the 'map()' method in JavaScript, and how does it work?",
+    "answer": "The 'map()' method is used to create a new array by applying a provided function to each element of an existing array. It does not mutate the original array."
+  },
+  {
+    "questionNumber": "20",
+    "question": "Explain the concept of 'closures' in JavaScript, and provide an example.",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. Here's an example:\n\n```\nfunction outer() {\n  var x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\n\nvar closure = outer();\nclosure(); // Outputs 10\n```\nIn this example, 'inner' is a closure that can access the 'x' variable even though 'outer' has finished executing."
+  },
+  {
+    "questionNumber": "21",
+    "question": "What is a callback function in JavaScript?",
+    "answer": "A callback function is a function that is passed as an argument to another function and is executed after the completion of that function. Callbacks are often used for handling asynchronous operations, events, and other scenarios where the order of execution is not guaranteed."
+  },
+  {
+    "questionNumber": "22",
+    "question": "What is a promise in JavaScript?",
+    "answer": "A promise is a built-in JavaScript object that represents the eventual completion or failure of an asynchronous operation. It provides a clean and structured way to handle asynchronous tasks and avoid callback hell."
+  },
+  {
+    "questionNumber": "23",
+    "question": "Explain the 'async/await' feature in JavaScript and its benefits.",
+    "answer": "Async/await is a syntactical feature in JavaScript that simplifies working with asynchronous code. It allows you to write asynchronous code in a more synchronous and readable manner, making it easier to reason about and maintain."
+  },
+  {
+    "questionNumber": "24",
+    "question": "What is a closure in JavaScript, and why is it useful?",
+    "answer": "A closure is a function that has access to its own scope, the outer (enclosing) function's scope, and the global scope. It 'closes over' its variables, preserving them even after the outer function has finished executing. Closures are useful for creating private data and functions, implementing data encapsulation, and maintaining state in JavaScript."
+  },
+  {
+    "questionNumber": "25",
+    "question": "What is the purpose of the 'bind()' method in JavaScript?",
+    "answer": "The 'bind()' method is used to create a new function that, when invoked, has its 'this' value set to a specified object. It is often used to bind a function to a particular context, making it useful for event handlers and callbacks."
+  },
+  {
+    "questionNumber": "26",
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "answer": "'null' represents the intentional absence of any object value, while 'undefined' represents a variable that has been declared but has not been assigned a value. They are two distinct values in JavaScript."
+  },
+  {
+    "questionNumber": "27",
+    "question": "Explain the concept of 'hoisting' in JavaScript.",
+    "answer": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation. This means you can use a variable or function before it is declared, but be aware that the value assigned to the variable is not hoisted."
+  },
+  {
+    "questionNumber": "28",
+    "question": "What is the purpose of the 'addEventListener()' method in JavaScript?",
+    "answer": "The 'addEventListener()' method is used to attach an event handler function to an HTML element. It allows you to respond to specific events like clicks, mouse movements, or keyboard inputs."
+  },
+  {
+    "questionNumber": "29",
+    "question": "What is the difference between '== ' and '=== ' in JavaScript?",
+    "answer": "'==' is the equality operator that compares values after type coercion, while '===' is the strict equality operator that compares both values and types without coercion. '===' is generally preferred for most comparisons to avoid unexpected type conversions."
+  },
+  {
+    "questionNumber": "30",
+    "question": "How do you check the type of a variable in JavaScript?",
+    "answer": "You can check the type of a variable in JavaScript using the 'typeof' operator. For example, 'typeof x' will return a string representing the type of 'x,' such as 'number,' 'string,' 'object,' 'function,' etc."
+  },
+  {
+    "questionNumber": "31",
+    "question": "What is the purpose of the 'map()' method in JavaScript, and how does it work?",
+    "answer": "The 'map()' method is used to create a new array by applying a provided function to each element of an existing array. It returns a new array with the results, without modifying the original array."
+  },
+  {
+    "questionNumber": "32",
+    "question": "Explain the difference between 'localStorage' and 'sessionStorage' in web storage.",
+    "answer": "'localStorage' and 'sessionStorage' are both web storage mechanisms, but they differ in terms of data persistence. 'localStorage' stores data indefinitely until explicitly removed, while 'sessionStorage' stores data for the duration of a page session and is cleared when the session ends."
+  },
+  {
+    "questionNumber": "33",
+    "question": "What is an arrow function in JavaScript, and how does it differ from regular functions?",
+    "answer": "An arrow function is a concise way to write functions in JavaScript. It has a shorter syntax and inherits 'this' from the surrounding code. Unlike regular functions, arrow functions do not have their own 'this,' 'arguments,' or 'super' binding."
+  },
+  {
+    "questionNumber": "34",
+    "question": "What is the purpose of the 'reduce()' method in JavaScript, and how does it work?",
+    "answer": "The 'reduce()' method is used to apply a callback function to each element of an array and accumulate a single result. It can be used for tasks like summing values, finding the maximum or minimum, or transforming data in an array."
+  },
+  {
+    "questionNumber": "35",
+    "question": "What is the global object in JavaScript, and how is it accessed?",
+    "answer": "The global object in JavaScript is the highest-level object in the scope chain and contains global variables and functions. In web browsers, it is referred to as 'window.' You can access it directly by using 'window' or, in Node.js, 'global.'"
+  },
+  {
+    "questionNumber": "36",
+    "question": "What is the purpose of the 'fetch()' function in JavaScript?",
+    "answer": "The 'fetch()' function is used to make network requests to fetch resources, such as data from APIs or remote servers. It returns a Promise that resolves to the Response object, allowing you to work with the fetched data."
+  },
+  {
+    "questionNumber": "37",
+    "question": "Explain the concept of asynchronous programming in JavaScript.",
+    "answer": "Asynchronous programming in JavaScript allows tasks to be executed concurrently without blocking the main thread. It is achieved using callbacks, Promises, async/await, and event-driven architecture to handle tasks like network requests, file I/O, and timers."
+  },
+  {
+    "questionNumber": "38",
+    "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+    "answer": "The 'try...catch' statement is used to handle exceptions (runtime errors) in JavaScript. Code within the 'try' block is executed, and if an exception occurs, it is caught and handled in the 'catch' block, preventing the program from crashing."
+  },
+  {
+    "questionNumber": "39",
+    "question": "What is a callback hell, and how can it be mitigated in JavaScript?",
+    "answer": "Callback hell, also known as the 'pyramid of doom,' occurs when multiple nested callbacks are used, leading to unreadable and hard-to-maintain code. It can be mitigated using techniques like named functions, Promises, or async/await to flatten the code structure."
+  },
+  {
+    "questionNumber": "40",
+    "question": "What is the 'localStorage' API in JavaScript, and how is it used?",
+    "answer": "'localStorage' is a web storage API that allows you to store key-value pairs on the client-side persistently. It provides methods like 'setItem()', 'getItem()', 'removeItem()', and 'clear()' to manage data stored in the browser."
+  },
+  {
+    "questionNumber": "41",
+    "question": "What are arrow functions in JavaScript?",
+    "answer": "Arrow functions are a concise way to write functions in JavaScript introduced in ES6. They have a shorter syntax and do not have their own 'this' or 'arguments' binding, making them suitable for certain use cases, especially in functional programming."
+  },
+  {
+    "questionNumber": "42",
+    "question": "Explain the concept of a JavaScript prototype and how it relates to inheritance.",
+    "answer": "In JavaScript, each object has a prototype, which is an object itself. When you access a property or method on an object, JavaScript first looks for it on the object itself. If it's not found, it looks in the object's prototype chain, allowing for inheritance of properties and methods."
+  },
+  {
+    "questionNumber": "43",
+    "question": "What is the 'event.preventDefault()' method in JavaScript, and when is it used?",
+    "answer": "'event.preventDefault()' is a method used to prevent the default behavior of an event, such as a form submission or a link click. It is often used in event handlers to control how events are handled by the browser."
+  },
+  {
+    "questionNumber": "44",
+    "question": "What is the purpose of the 'async' keyword in JavaScript, and how is it used?",
+    "answer": "The 'async' keyword is used to declare that a function returns a Promise. It allows you to use the 'await' keyword inside the function to pause execution until the Promise is resolved, making asynchronous code more readable and manageable."
+  },
+  {
+    "questionNumber": "45",
+    "question": "What is a JavaScript module, and how does it differ from a regular script?",
+    "answer": "A JavaScript module is a self-contained file with its own scope that can export and import variables, functions, or classes. Modules help organize code, encapsulate functionality, and prevent global scope pollution, unlike regular scripts."
+  },
+  {
+    "questionNumber": "46",
+    "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+    "answer": "The 'Object.keys()' method is used to retrieve an array of an object's own enumerable property names (keys). It is often used for iterating through an object's properties or checking if it contains specific keys."
+  },
+  {
+    "questionNumber": "47",
+    "question": "Explain the concept of event delegation in JavaScript.",
+    "answer": "Event delegation is a technique where you attach a single event listener to a common ancestor of multiple elements instead of attaching individual listeners to each element. It is more efficient and helps manage events for dynamically created elements."
+  },
+  {
+    "questionNumber": "48",
+    "question": "What is a JavaScript constructor function, and how is it used?",
+    "answer": "A constructor function is a JavaScript function that is used to create and initialize objects. It is typically invoked using the 'new' keyword and sets properties and methods on the newly created object."
+  },
+  {
+    "questionNumber": "49",
+    "question": "What are the differences between 'null,' 'undefined,' and 'NaN' in JavaScript?",
+    "answer": "'null' represents the intentional absence of any object value, 'undefined' represents a variable that has been declared but hasn't been assigned a value, and 'NaN' stands for 'Not-a-Number' and represents a value that is not a valid number."
+  },
+  {
+    "questionNumber": "50",
+    "question": "Explain the concept of the 'event loop' in JavaScript and how it handles asynchronous tasks.",
+    "answer": "The event loop is a core component of JavaScript's concurrency model. It continuously checks the call stack for functions to execute and the message queue for events to process. It ensures that asynchronous tasks are executed in a non-blocking, efficient manner."
+  },
+  {
+    "questionNumber": "51",
+    "question": "What is the 'typeof' operator in JavaScript, and how is it used?",
+    "answer": "The 'typeof' operator is used to determine the data type of a variable or expression. It returns a string representing the data type, such as 'number,' 'string,' 'object,' 'function,' 'undefined,' etc."
+  },
+  {
+    "questionNumber": "52",
+    "question": "What are the differences between 'let,' 'const,' and 'var' for variable declaration in JavaScript?",
+    "answer": "'var' is function-scoped and hoisted, 'let' and 'const' are block-scoped and not hoisted. 'let' allows reassignment, while 'const' is for values that should not change."
+  },
+  {
+    "questionNumber": "53",
+    "question": "What is a closure in JavaScript, and how is it used?",
+    "answer": "A closure is a function that retains access to variables from its parent function, even after the parent function has finished executing. Closures are used for encapsulation, data privacy, and maintaining state."
+  },
+  {
+    "questionNumber": "54",
+    "question": "Explain the concept of asynchronous programming in JavaScript.",
+    "answer": "Asynchronous programming in JavaScript allows tasks to be executed concurrently without blocking the main thread. It is achieved using mechanisms like callbacks, Promises, async/await, and event handling to handle tasks such as network requests and I/O operations."
+  },
+  {
+    "questionNumber": "55",
+    "question": "What is the purpose of the 'bind()' method in JavaScript, and how does it work?",
+    "answer": "The 'bind()' method is used to create a new function with a specified 'this' value and, optionally, initial arguments. It allows you to explicitly set the context in which a function will be called, making it useful for event handlers and callbacks."
+  },
+  {
+    "questionNumber": "56",
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "answer": "'null' represents the intentional absence of any object value, while 'undefined' represents a variable that has been declared but has not been assigned a value."
+  },
+  {
+    "questionNumber": "57",
+    "question": "Explain the concept of 'hoisting' in JavaScript.",
+    "answer": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation. This allows you to use variables and functions before they are declared."
+  },
+  {
+    "questionNumber": "58",
+    "question": "What are the differences between '==' and '===' operators in JavaScript?",
+    "answer": "'==' is the equality operator, which performs type coercion to compare values, while '===' is the strict equality operator that compares both values and types without coercion."
+  },
+  {
+    "questionNumber": "59",
+    "question": "Explain the concept of event delegation in JavaScript.",
+    "answer": "Event delegation is a technique where you attach a single event listener to a common ancestor of multiple elements instead of attaching individual listeners to each element. This is efficient and helps manage events for dynamically created elements."
+  },
+  {
+    "questionNumber": "60",
+    "question": "What is the 'this' keyword in JavaScript, and how does it work?",
+    "answer": "The 'this' keyword refers to the current execution context and can vary depending on how and where a function is called. It is determined by the function's invocation and can refer to different objects, such as the global object or an instance of a class."
+  },
+  {
+    "questionNumber": "61",
+    "question": "Explain the concept of IIFE (Immediately Invoked Function Expression) in JavaScript.",
+    "answer": "An IIFE is a self-invoking function that is defined and executed immediately after its creation. It is often used to create a private scope for variables and functions, preventing them from polluting the global scope."
+  },
+  {
+    "questionNumber": "62",
+    "question": "What is the purpose of 'localStorage' and 'sessionStorage' in web development?",
+    "answer": "'localStorage' and 'sessionStorage' are web storage mechanisms that allow developers to store data on the client-side. 'localStorage' stores data persistently, while 'sessionStorage' stores data for the duration of a page session."
+  },
+  {
+    "questionNumber": "63",
+    "question": "Explain the concept of JSON and its usage in JavaScript.",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write. In JavaScript, it is used to represent and exchange data between a server and a client, commonly in the form of APIs."
+  },
+  {
+    "questionNumber": "64",
+    "question": "What is a callback function in JavaScript, and how is it used?",
+    "answer": "A callback function is a function that is passed as an argument to another function and is executed later, often after an asynchronous operation or event. Callbacks are essential for handling non-blocking operations."
+  },
+  {
+    "questionNumber": "65",
+    "question": "What is the purpose of the 'map()' method in JavaScript?",
+    "answer": "The 'map()' method is used to create a new array by applying a provided function to each element of an existing array. It returns a new array with the results, without modifying the original array."
+  },
+  {
+    "questionNumber": "66",
+    "question": "Explain the concept of 'closures' in JavaScript, and provide an example.",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. Here's an example:\n\n```javascript\nfunction outer() {\n  var x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\n\nvar closure = outer();\nclosure(); // Outputs 10\n```\nIn this example, 'inner' is a closure that can access the 'x' variable even though 'outer' has finished executing."
+  },
+  {
+    "questionNumber": "67",
+    "question": "What are the benefits of using the 'strict mode' in JavaScript?",
+    "answer": "Strict mode is a set of rules that enhance JavaScript by catching common coding mistakes and preventing potentially problematic code from running. Its benefits include improved error handling, security, and performance optimization."
+  },
+  {
+    "questionNumber": "68",
+    "question": "What is the purpose of the 'Object.defineProperty()' method in JavaScript?",
+    "answer": "'Object.defineProperty()' is used to define or modify properties on an object with fine-grained control. It allows you to specify attributes such as configurability, enumerable status, and getter/setter functions for properties."
+  },
+  {
+    "questionNumber": "69",
+    "question": "Explain the concept of 'async/await' in JavaScript and how it simplifies asynchronous code.",
+    "answer": "'async/await' is a syntactical feature in JavaScript that simplifies working with asynchronous code. It allows you to write asynchronous code in a more synchronous and readable manner, making it easier to reason about and maintain."
+  },
+  {
+    "questionNumber": "70",
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "answer": "The 'typeof' operator is used to determine the data type of a variable or expression. It returns a string representing the data type, such as 'number,' 'string,' 'object,' 'function,' etc."
+  },
+  {
+    "questionNumber": "71",
+    "question": "What is the difference between 'let,' 'const,' and 'var' in JavaScript for variable declaration?",
+    "answer": "'var' is function-scoped, 'let' and 'const' are block-scoped. 'let' allows reassignment, while 'const' does not and should be used for values that should not change."
+  },
+  {
+    "questionNumber": "72",
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. It 'closes over' these variables."
+  },
+  {
+    "questionNumber": "73",
+    "question": "Explain event delegation in JavaScript.",
+    "answer": "Event delegation is a technique where you attach a single event listener to a common ancestor of multiple elements instead of attaching individual listeners to each element. It is more efficient and reduces memory usage."
+  },
+  {
+    "questionNumber": "74",
+    "question": "What is 'this' keyword in JavaScript?",
+    "answer": "The 'this' keyword refers to the current context, which varies depending on how and where it is used. In a global context, it refers to the global object (e.g., 'window' in browsers), while inside a function, it can refer to the function's execution context."
+  },
+  {
+    "questionNumber": "75",
+    "question": "Explain the concept of hoisting in JavaScript.",
+    "answer": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they are declared in the code."
+  },
+  {
+    "questionNumber": "76",
+    "question": "What is the difference between '==' and '===' operators in JavaScript?",
+    "answer": "'==' is the equality operator, which performs type coercion, while '===' is the strict equality operator, which compares both value and type without coercion."
+  },
+  {
+    "questionNumber": "77",
+    "question": "What is the purpose of the 'bind()' method in JavaScript?",
+    "answer": "The 'bind()' method is used to create a new function with a specified 'this' value and initial arguments. It allows you to explicitly set the context in which a function will be invoked."
+  },
+  {
+    "questionNumber": "78",
+    "question": "What is a promise in JavaScript?",
+    "answer": "A promise is an object representing the eventual completion or failure of an asynchronous operation. It provides a more structured way to handle asynchronous code compared to callbacks."
+  },
+  {
+    "questionNumber": "79",
+    "question": "Explain the 'prototype' property in JavaScript and its role in inheritance.",
+    "answer": "The 'prototype' property is used to add properties and methods to objects in JavaScript. It plays a crucial role in prototype-based inheritance, where objects can inherit properties and methods from their prototype objects."
+  },
+  {
+    "questionNumber": "80",
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "answer": "'null' is an intentional absence of any object value, while 'undefined' is a variable that has been declared but has not been assigned a value."
+  },
+  {
+    "questionNumber": "81",
+    "question": "How does asynchronous programming work in JavaScript?",
+    "answer": "Asynchronous programming in JavaScript is achieved using callbacks, Promises, and async/await. It allows non-blocking execution of code, ensuring that time-consuming tasks do not block the main thread."
+  },
+  {
+    "questionNumber": "82",
+    "question": "What is the Event Loop in JavaScript, and how does it work?",
+    "answer": "The Event Loop is a core concept in JavaScript's concurrency model. It continuously checks the call stack and the message queue, executing functions in a non-blocking, asynchronous manner."
+  },
+  {
+    "questionNumber": "83",
+    "question": "What is the 'typeof' operator in JavaScript, and how is it used?",
+    "answer": "The 'typeof' operator is used to determine the data type of a variable or expression. It returns a string representing the data type, such as 'number,' 'string,' 'object,' 'function,' etc."
+  },
+  {
+    "questionNumber": "84",
+    "question": "Explain the concept of IIFE (Immediately Invoked Function Expression) in JavaScript.",
+    "answer": "An IIFE is a JavaScript function that is executed immediately after it is defined. It is often used to create a private scope for variables and avoid polluting the global scope."
+  },
+  {
+    "questionNumber": "85",
+    "question": "What is the purpose of 'localStorage' and 'sessionStorage' in web development?",
+    "answer": "'localStorage' and 'sessionStorage' are web storage mechanisms that allow developers to store data on the client-side. 'localStorage' stores data persistently, while 'sessionStorage' stores data for a session."
+  },
+  {
+    "questionNumber": "86",
+    "question": "Explain the concept of JSON and its usage in JavaScript.",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format. In JavaScript, it is used to represent and exchange data between a server and a client, often in API communication."
+  },
+  {
+    "questionNumber": "87",
+    "question": "What is a callback function in JavaScript, and how is it used?",
+    "answer": "A callback function is a function passed as an argument to another function and is executed later when the first function has completed its operation. Callbacks are commonly used in asynchronous code."
+  },
+  {
+    "questionNumber": "88",
+    "question": "What is the purpose of the 'map()' method in JavaScript, and how does it work?",
+    "answer": "The 'map()' method is used to create a new array by applying a provided function to each element of an existing array. It does not mutate the original array."
+  },
+  {
+    "questionNumber": "89",
+    "question": "Explain the concept of 'closures' in JavaScript, and provide an example.",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. Here's an example:\n\n```\nfunction outer() {\n  var x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\n\nvar closure = outer();\nclosure(); // Outputs 10\n```\nIn this example, 'inner' is a closure that can access the 'x' variable even though 'outer' has finished executing."
+  },
+  {
+    "questionNumber": "90",
+    "question": "What is the Event Loop in JavaScript, and how does it work?",
+    "answer": "The Event Loop is a core concept in JavaScript's concurrency model. It continuously checks the call stack and the message queue, executing functions in a non-blocking, asynchronous manner."
+  },
+  {
+    "questionNumber": "91",
+    "question": "What is the 'async/await' feature in JavaScript and its benefits?",
+    "answer": "Async/await is a syntactical feature in JavaScript that simplifies working with asynchronous code. It allows you to write asynchronous code in a more synchronous and readable manner, making it easier to reason about and maintain."
+  },
+  {
+    "questionNumber": "92",
+    "question": "What is the purpose of 'localStorage' and 'sessionStorage' in web development?",
+    "answer": "'localStorage' and 'sessionStorage' are web storage mechanisms that allow developers to store data on the client-side. 'localStorage' stores data persistently, while 'sessionStorage' stores data for a session."
+  },
+  {
+    "questionNumber": "93",
+    "question": "Explain the concept of JSON and its usage in JavaScript.",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format. In JavaScript, it is used to represent and exchange data between a server and a client, often in API communication."
+  },
+  {
+    "questionNumber": "94",
+    "question": "What is a callback function in JavaScript, and how is it used?",
+    "answer": "A callback function is a function passed as an argument to another function and is executed later when the first function has completed its operation. Callbacks are commonly used in asynchronous code."
+  },
+  {
+    "questionNumber": "95",
+    "question": "What is the purpose of the 'map()' method in JavaScript, and how does it work?",
+    "answer": "The 'map()' method is used to create a new array by applying a provided function to each element of an existing array. It does not mutate the original array."
+  },
+  {
+    "questionNumber": "96",
+    "question": "Explain the concept of 'closures' in JavaScript, and provide an example.",
+    "answer": "A closure is a function that retains access to variables from its parent function even after the parent function has finished executing. Here's an example:\n\n```\nfunction outer() {\n  var x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\n\nvar closure = outer();\nclosure(); // Outputs 10\n```\nIn this example, 'inner' is a closure that can access the 'x' variable even though 'outer' has finished executing."
+  },
+  {
+    "questionNumber": "97",
+    "question": "What is the Event Loop in JavaScript, and how does it work?",
+    "answer": "The Event Loop is a core concept in JavaScript's concurrency model. It continuously checks the call stack and the message queue, executing functions in a non-blocking, asynchronous manner."
+  },
+  {
+    "questionNumber": "98",
+    "question": "What is the 'async/await' feature in JavaScript and its benefits?",
+    "answer": "Async/await is a syntactical feature in JavaScript that simplifies working with asynchronous code. It allows you to write asynchronous code in a more synchronous and readable manner, making it easier to reason about and maintain."
+  },
+  {
+    "questionNumber": "99",
+    "question": "What is the purpose of 'localStorage' and 'sessionStorage' in web development?",
+    "answer": "'localStorage' and 'sessionStorage' are web storage mechanisms that allow developers to store data on the client-side. 'localStorage' stores data persistently, while 'sessionStorage' stores data for a session."
+  },
+  {
+    "questionNumber": "100",
+    "question": "Explain the concept of JSON and its usage in JavaScript.",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format. In JavaScript, it is used to represent and exchange data between a server and a client, often in API communication."
+  }
+]
