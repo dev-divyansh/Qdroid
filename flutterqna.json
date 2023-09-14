@@ -1,0 +1,502 @@
+[
+  {
+    "questionNumber": "01",
+    "question": "What is Flutter?",
+    "answer": "Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase."
+  },
+  {
+    "questionNumber": "02",
+    "question": "Explain the key advantages of using Flutter for mobile app development.",
+    "answer": "Flutter offers hot reload, a rich set of pre-designed widgets, excellent performance, and a single codebase for multiple platforms, making it a productive choice for mobile app development."
+  },
+  {
+    "questionNumber": "03",
+    "question": "What is Dart?",
+    "answer": "Dart is the programming language used by Flutter. It is a statically typed language with a focus on simplicity and productivity. Dart is compiled to native code for high performance."
+  },
+  {
+    "questionNumber": "04",
+    "question": "What is the difference between StatelessWidget and StatefulWidget in Flutter?",
+    "answer": "StatelessWidgets are immutable and do not have internal state, while StatefulWidgets can change their internal state over time. Widgets that need to update and rebuild themselves should use StatefulWidget."
+  },
+  {
+    "questionNumber": "05",
+    "question": "What is a widget in Flutter?",
+    "answer": "In Flutter, everything is a widget. Widgets are the building blocks of the user interface and can represent anything from a simple button to a complex layout."
+  },
+  {
+    "questionNumber": "06",
+    "question": "Explain the 'build' method in Flutter widgets.",
+    "answer": "The 'build' method is a required method in every Flutter widget. It defines the part of the widget that needs to be rebuilt when the widget's state changes. It returns a Widget."
+  },
+  {
+    "questionNumber": "07",
+    "question": "What is a MaterialApp and why is it important in a Flutter app?",
+    "answer": "MaterialApp is a predefined widget in Flutter that configures the basic structure and style of a Material Design app. It sets up navigation, theming, and other important aspects of the app."
+  },
+  {
+    "questionNumber": "08",
+    "question": "What is a GlobalKey in Flutter?",
+    "answer": "A GlobalKey is a global key that can be used to uniquely identify widgets across different parts of the widget tree. It is often used to access or manipulate widgets from outside their parent."
+  },
+  {
+    "questionNumber": "09",
+    "question": "Explain the concept of a 'BuildContext' in Flutter.",
+    "answer": "BuildContext represents the location of a widget in the widget tree. It is used to find and access other widgets, build a subtree, and handle state changes within a widget."
+  },
+  {
+    "questionNumber": "10",
+    "question": "What is the purpose of the 'setState' method in Flutter?",
+    "answer": "The 'setState' method is used in StatefulWidget to signal Flutter that the widget's internal state has changed and needs to be rebuilt. It triggers a rebuild of the widget and its descendants."
+  },
+  {
+    "questionNumber": "11",
+    "question": "What is the 'Navigator' in Flutter, and how is it used for navigation?",
+    "answer": "The 'Navigator' is a widget used for managing navigation in Flutter apps. It allows you to push and pop screens onto/from the navigation stack, enabling navigation between different screens."
+  },
+  {
+    "questionNumber": "12",
+    "question": "Explain the concept of 'async' and 'await' in Dart.",
+    "answer": "In Dart, 'async' is used to mark a function as asynchronous, while 'await' is used to pause the execution of a function until a future or an asynchronous operation completes."
+  },
+  {
+    "questionNumber": "13",
+    "question": "What are the different layout widgets available in Flutter?",
+    "answer": "Flutter provides a variety of layout widgets, including 'Container,' 'Row,' 'Column,' 'ListView,' 'Stack,' and 'Expanded,' to help you arrange and position elements within your UI."
+  },
+  {
+    "questionNumber": "14",
+    "question": "What is a 'Flutter package,' and how do you include one in your project?",
+    "answer": "A Flutter package is a collection of Dart code, assets, and configuration files that provide additional functionality for your Flutter app. You can include a package in your project by adding it to your 'pubspec.yaml' file."
+  },
+  {
+    "questionNumber": "15",
+    "question": "What is the 'BuildContext' parameter in the 'build' method used for?",
+    "answer": "The 'BuildContext' parameter in the 'build' method is used to obtain the context of the current widget, which is crucial for accessing the theme, localization, and finding widgets in the widget tree."
+  },
+  {
+    "questionNumber": "16",
+    "question": "Explain the purpose of the 'async' modifier in Flutter widget constructors.",
+    "answer": "The 'async' modifier in Flutter widget constructors allows you to create asynchronous widgets. These widgets can be used to load data asynchronously and display the UI once the data is available."
+  },
+  {
+    "questionNumber": "17",
+    "question": "What is the 'GestureDetector' widget used for in Flutter?",
+    "answer": "The 'GestureDetector' widget in Flutter is used to recognize and respond to user gestures, such as taps, swipes, and drags. It can be wrapped around other widgets to make them interactive."
+  },
+  {
+    "questionNumber": "18",
+    "question": "Explain the purpose of 'setState' in managing the state of a StatefulWidget.",
+    "answer": "'setState' is used in StatefulWidget to indicate that the internal state of the widget has changed. When called, it triggers a rebuild of the widget and its descendants, updating the UI to reflect the new state."
+  },
+  {
+    "questionNumber": "19",
+    "question": "What is a 'PageRoute' in Flutter, and how is it used for navigation?",
+    "answer": "A 'PageRoute' is a predefined type of route in Flutter that represents a full-screen page in the app. It is used with the 'Navigator' to navigate between different screens or pages."
+  },
+  {
+    "questionNumber": "20",
+    "question": "What is 'InheritedWidget' in Flutter, and how does it facilitate data sharing?",
+    "answer": "'InheritedWidget' is a mechanism in Flutter that allows data to be passed down the widget tree without the need to explicitly pass it as arguments. It's commonly used for themes, localization, and app-wide state management."
+  },
+  {
+    "questionNumber": "21",
+    "question": "Explain the purpose of the 'crossAxisAlignment' property in a 'Column' widget.",
+    "answer": "The 'crossAxisAlignment' property in a 'Column' widget controls how its children are aligned vertically when they do not occupy the full available width. It's used to specify the alignment of children along the cross axis."
+  },
+  {
+    "questionNumber": "22",
+    "question": "What is 'hot reload' in Flutter, and why is it useful for development?",
+    "answer": "'Hot reload' is a feature in Flutter that allows developers to make changes to their code and see the results immediately in the running app without losing the app's state. It greatly speeds up development and debugging."
+  },
+  {
+    "questionNumber": "23",
+    "question": "What are 'Widgets' and 'Elements' in the context of the Flutter framework?",
+    "answer": "In Flutter, 'Widgets' are the declarative building blocks for the UI, while 'Elements' are the lightweight, mutable representations of widgets that exist in the widget tree and are responsible for rendering."
+  },
+  {
+    "questionNumber": "24",
+    "question": "Explain the concept of 'prop drilling' in Flutter and how it can be avoided.",
+    "answer": "Prop drilling occurs when you pass data through multiple layers of widgets just to get it to a deeply nested widget. To avoid prop drilling, you can use techniques like 'InheritedWidget' or 'Provider' for state management."
+  },
+  {
+    "questionNumber": "25",
+    "question": "What is the purpose of the 'main.dart' file in a Flutter project?",
+    "answer": "The 'main.dart' file is the entry point of a Flutter project. It contains the 'main' function that serves as the starting point of the app and initializes the Flutter framework."
+  },
+  {
+    "questionNumber": "26",
+    "question": "What is the 'Cupertino' library in Flutter, and when is it used?",
+    "answer": "The 'Cupertino' library is part of Flutter and provides widgets and styles that follow the design guidelines of iOS. It is used to create iOS-specific UI components and achieve platform-specific looks."
+  },
+  {
+    "questionNumber": "27",
+    "question": "Explain 'async/await' in the context of asynchronous programming in Dart.",
+    "answer": "'async' and 'await' are used in Dart to simplify asynchronous programming. 'async' marks a function as asynchronous, and 'await' is used within an 'async' function to pause execution until an asynchronous operation completes."
+  },
+  {
+    "questionNumber": "28",
+    "question": "What is the 'Pub' tool in Flutter, and how is it used?",
+    "answer": "The 'Pub' tool is a package manager for Dart and Flutter. It is used to manage dependencies, including Flutter packages and plugins, by updating the 'pubspec.yaml' file and running 'pub get' or 'flutter pub get' commands."
+  },
+  {
+    "questionNumber": "29",
+    "question": "Explain the concept of 'widget composition' in Flutter.",
+    "answer": "Widget composition in Flutter involves creating complex UIs by combining and nesting simpler widgets. It allows for the construction of custom, reusable widgets from existing ones, promoting code modularity and maintainability."
+  },
+  {
+    "questionNumber": "30",
+    "question": "What is 'BuildContext' and how is it used in widget building?",
+    "answer": "'BuildContext' represents the location of a widget in the widget tree. It is essential for referencing the context-specific information, such as themes, localization, or finding ancestor widgets, during widget building."
+  },
+  {
+    "questionNumber": "31",
+    "question": "What is the purpose of the 'Expanded' widget in Flutter?",
+    "answer": "The 'Expanded' widget is used within 'Row' and 'Column' layouts to give a child widget the ability to expand and fill the available space along the main axis. It is often used to create flexible layouts."
+  },
+  {
+    "questionNumber": "32",
+    "question": "What is 'Flutter Doctor,' and how is it used to diagnose and fix Flutter issues?",
+    "answer": "'Flutter Doctor' is a command-line tool in Flutter used to diagnose and fix common issues with the Flutter development environment. It checks for missing dependencies, configuration problems, and provides guidance on how to resolve them."
+  },
+  {
+    "questionNumber": "33",
+    "question": "Explain the purpose of the 'Keys' parameter when working with widgets in Flutter.",
+    "answer": "The 'Keys' parameter is used to assign a unique identifier to a widget. This can be useful for maintaining widget state, updating specific widgets, or accessing them within a widget tree."
+  },
+  {
+    "questionNumber": "34",
+    "question": "What is the 'Flutter Inspector,' and how does it aid in debugging Flutter apps?",
+    "answer": "The 'Flutter Inspector' is a tool provided by Flutter that allows developers to inspect and interact with widgets in a running Flutter app. It helps in debugging UI issues and understanding the widget hierarchy."
+  },
+  {
+    "questionNumber": "35",
+    "question": "Explain the concept of 'Hero' animations in Flutter.",
+    "answer": "'Hero' animations in Flutter involve animating the transition of a widget from one screen to another. It creates a visually pleasing effect where a widget 'flies' smoothly between screens."
+  },
+  {
+    "questionNumber": "36",
+    "question": "What is 'Flutter DevTools,' and how is it used for Flutter app debugging?",
+    "answer": "'Flutter DevTools' is a suite of tools and a web-based dashboard that helps developers debug and analyze Flutter apps. It provides insights into performance, memory usage, and widget inspection."
+  },
+  {
+    "questionNumber": "37",
+    "question": "What is 'State Management' in the context of Flutter, and why is it important?",
+    "answer": "State management in Flutter refers to how you handle and manage the data and UI state in your app. It is crucial for building complex apps and ensuring efficient updates to the UI."
+  },
+  {
+    "questionNumber": "38",
+    "question": "What is 'BuildContext' and why is it important in widget building?",
+    "answer": "'BuildContext' is a fundamental part of Flutter that represents the location of a widget in the widget tree. It is crucial for tasks like building widgets, finding ancestors, and accessing theme data."
+  },
+  {
+    "questionNumber": "39",
+    "question": "Explain the concept of 'scoped model' state management in Flutter.",
+    "answer": "Scoped model is a state management approach in Flutter that allows you to define models and share them with multiple widgets in your app. It provides a way to access and update app-wide state."
+  },
+  {
+    "questionNumber": "40",
+    "question": "What is 'Flutter LayoutBuilder,' and how is it used?",
+    "answer": "'LayoutBuilder' is a widget in Flutter that provides constraints to its child based on the parent's size. It is used when you need to customize the layout of a child widget based on available space."
+  },
+  {
+    "questionNumber": "41",
+    "question": "What is 'pubspec.yaml,' and what information does it contain in a Flutter project?",
+    "answer": "'pubspec.yaml' is a configuration file in Flutter projects. It contains information about the app's dependencies, metadata, assets, and other settings required by the Flutter package manager ('pub')."
+  },
+  {
+    "questionNumber": "42",
+    "question": "Explain the concept of 'Flutter Keys' and their use in widget testing.",
+    "answer": "Flutter keys are identifiers assigned to widgets in the widget tree. They are useful in widget testing to locate and interact with specific widgets, ensuring that tests target the correct elements."
+  },
+  {
+    "questionNumber": "43",
+    "question": "What is the 'BuildContext' parameter in Flutter route generation?",
+    "answer": "In Flutter route generation, the 'BuildContext' parameter is used to specify the context in which a route is generated. It provides information about the current state of the widget tree and can be used to navigate to other routes."
+  },
+  {
+    "questionNumber": "44",
+    "question": "What is 'Flutter Widgets Inspector,' and how does it assist in debugging Flutter apps?",
+    "answer": "'Flutter Widgets Inspector' is a tool that helps developers inspect and debug the widget tree of a running Flutter app. It allows you to view widget properties, hierarchy, and relationships for debugging purposes."
+  },
+  {
+    "questionNumber": "45",
+    "question": "Explain the 'intl' package in Flutter and its use for internationalization.",
+    "answer": "The 'intl' package in Flutter is used for internationalization and localization of apps. It provides tools to format dates, numbers, and strings in a way that is culturally appropriate for different locales."
+  },
+  {
+    "questionNumber": "46",
+    "question": "What is 'Flutter BLoC' and how is it used for state management?",
+    "answer": "'Flutter BLoC' (Business Logic Component) is a state management pattern and library in Flutter. It separates business logic from UI, making it easier to manage and test app state."
+  },
+  {
+    "questionNumber": "47",
+    "question": "What is 'Flutter ThemeData,' and how is it used for theming?",
+    "answer": "'Flutter ThemeData' is a class in Flutter used for defining the visual theme of an app. It includes properties for text styles, colors, and other theme-related settings."
+  },
+  {
+    "questionNumber": "48",
+    "question": "Explain the concept of 'Flutter Navigator 2.0' and its benefits.",
+    "answer": "'Flutter Navigator 2.0' is an improved navigation system in Flutter that offers more flexibility and control over route management. It allows for deep linking, dynamic route generation, and better navigation patterns."
+  },
+  {
+    "questionNumber": "49",
+    "question": "What is the 'BuildContext' parameter in Flutter route building?",
+    "answer": "In Flutter route building, the 'BuildContext' parameter is used to specify the context in which a route is built. It provides information about the current widget tree and is essential for creating routes."
+  },
+  {
+    "questionNumber": "50",
+    "question": "Explain the 'StreamBuilder' widget in Flutter and its use for asynchronous data handling.",
+    "answer": "'StreamBuilder' is a Flutter widget that listens to a stream of data and rebuilds its UI when new data is available. It is commonly used for displaying data that changes over time, such as real-time updates."
+  },
+  {
+    "questionNumber": "51",
+    "question": "What is 'Flutter Provider' and how is it used for state management?",
+    "answer": "'Flutter Provider' is a state management library for Flutter that simplifies the process of sharing and managing app-wide state. It uses the 'ChangeNotifier' and 'Provider' widgets to achieve this."
+  },
+  {
+    "questionNumber": "52",
+    "question": "Explain 'InheritedWidget' and its role in state management in Flutter.",
+    "answer": "'InheritedWidget' is a Flutter widget that allows data to be passed down the widget tree without the need to explicitly pass it as arguments. It is often used for app-wide state management and theming."
+  },
+  {
+    "questionNumber": "53",
+    "question": "What is the purpose of the 'BuildContext' parameter in Flutter?",
+    "answer": "'BuildContext' represents the location of a widget in the widget tree. It is crucial for tasks like building widgets, finding ancestors, and accessing theme data during widget construction."
+  },
+  {
+    "questionNumber": "54",
+    "question": "Explain 'Cross-platform Development' in the context of Flutter.",
+    "answer": "Cross-platform development in Flutter means writing code once and running it on multiple platforms, such as iOS, Android, web, and desktop. Flutter achieves this through its widget-based approach and platform-specific rendering."
+  },
+  {
+    "questionNumber": "55",
+    "question": "What are 'Flutter Widgets' and how do they differ from native UI components?",
+    "answer": "Flutter Widgets are UI components that define the app's interface. They differ from native UI components by being drawn entirely by Flutter's rendering engine, allowing for a consistent look and feel across platforms."
+  },
+  {
+    "questionNumber": "56",
+    "question": "Explain the purpose of 'Flutter MaterialApp' and its configuration options.",
+    "answer": "'Flutter MaterialApp' is a widget that configures the basic structure and style of a Material Design app. It allows you to customize aspects like app theme, navigation, and routes."
+  },
+  {
+    "questionNumber": "57",
+    "question": "What is 'Flutter StatefulWidget' and when is it used?",
+    "answer": "'Flutter StatefulWidget' is a widget that can change its internal state over time. It is used when you need a widget to maintain and update its state, such as handling user input or data changes."
+  },
+  {
+    "questionNumber": "58",
+    "question": "Explain the concept of 'Flutter StatelessWidget' and its characteristics.",
+    "answer": "'Flutter StatelessWidget' is a widget that is immutable and cannot change its internal state once created. It is used for rendering static UI elements that don't need to update based on user interactions or data changes."
+  },
+  {
+    "questionNumber": "59",
+    "question": "What is 'Flutter Scaffold' and how is it used in app layout?",
+    "answer": "'Flutter Scaffold' is a Material Design widget that provides a basic app layout structure, including app bars, drawers, and floating action buttons. It simplifies the creation of common app layouts."
+  },
+  {
+    "questionNumber": "60",
+    "question": "Explain the concept of 'Widget State' in Flutter.",
+    "answer": "Widget State in Flutter refers to the data and configuration specific to a widget at a given moment. 'StatefulWidget' widgets can change their state over time, while 'StatelessWidget' widgets have fixed state."
+  },
+  {
+    "questionNumber": "61",
+    "question": "What is 'Flutter Row' and how is it used in creating horizontal layouts?",
+    "answer": "'Flutter Row' is a widget used to create horizontal layouts. It arranges its children in a row, allowing you to build UIs with elements displayed side by side."
+  },
+  {
+    "questionNumber": "62",
+    "question": "Explain the concept of 'Flutter Column' and its role in vertical layouts.",
+    "answer": "'Flutter Column' is a widget used for creating vertical layouts. It arranges its children in a column, making it suitable for building UIs with elements stacked on top of each other."
+  },
+  {
+    "questionNumber": "63",
+    "question": "What is 'Flutter ListView' and when is it used?",
+    "answer": "'Flutter ListView' is a widget used for creating scrollable lists of items. It is commonly used when you have a large number of items to display in a scrollable container."
+  },
+  {
+    "questionNumber": "64",
+    "question": "Explain the 'Flutter Text' widget and its use for displaying text.",
+    "answer": "'Flutter Text' is a widget used for displaying text in your app. It allows you to style and format text, including font size, color, and alignment."
+  },
+  {
+    "questionNumber": "65",
+    "question": "What is 'Flutter Image' and how is it used for displaying images?",
+    "answer": "'Flutter Image' is a widget used for displaying images in your app. It supports various image sources, including local assets and network URLs."
+  },
+  {
+    "questionNumber": "66",
+    "question": "Explain the 'Flutter InkWell' widget and its role in creating interactive UI elements.",
+    "answer": "'Flutter InkWell' is a widget used to make other widgets interactive by adding tap gestures. It's commonly used to add touch effects, such as ripples, to buttons and other UI elements."
+  },
+  {
+    "questionNumber": "67",
+    "question": "What is 'Flutter ListView.builder,' and why is it efficient for displaying long lists?",
+    "answer": "'Flutter ListView.builder' is a widget used for efficiently displaying long lists of items. It creates and recycles widgets as they scroll into and out of view, reducing memory usage."
+  },
+  {
+    "questionNumber": "68",
+    "question": "Explain the concept of 'Flutter BoxDecoration' and its use for styling containers.",
+    "answer": "'Flutter BoxDecoration' is used to define the decoration (e.g., background color, borders) of a container widget. It allows you to style containers and other widgets."
+  },
+  {
+    "questionNumber": "69",
+    "question": "What is 'Flutter GestureDetector,' and how is it used for handling gestures?",
+    "answer": "'Flutter GestureDetector' is a widget used to recognize and handle various gestures, such as taps, drags, and long presses. It provides callbacks for responding to these gestures."
+  },
+  {
+    "questionNumber": "70",
+    "question": "Explain 'Flutter Positioned' and its role in widget positioning within a 'Stack.'",
+    "answer": "'Flutter Positioned' is a widget used within a 'Stack' to position its child widgets at specific locations within the stack. It's often used for precise widget placement."
+  },
+  {
+    "questionNumber": "71",
+    "question": "What is 'Flutter BottomNavigationBar,' and how is it used for app navigation?",
+    "answer": "'Flutter BottomNavigationBar' is a widget that provides a navigation bar at the bottom of the screen. It is commonly used for navigating between different sections or pages of an app."
+  },
+  {
+    "questionNumber": "72",
+    "question": "Explain the concept of 'Flutter FutureBuilder' and its use for working with asynchronous data.",
+    "answer": "'Flutter FutureBuilder' is a widget used to handle and display the result of a 'Future' asynchronously. It updates the UI based on the state of the 'Future' (e.g., loading, success, error)."
+  },
+  {
+    "questionNumber": "73",
+    "question": "What is 'Flutter ListTile,' and how is it used for displaying lists of items?",
+    "answer": "'Flutter ListTile' is a widget that represents a single item in a list. It is commonly used in 'ListView' and 'ListTile' to display a list of items with icons, titles, and subtitles."
+  },
+  {
+    "questionNumber": "74",
+    "question": "Explain the concept of 'Flutter Card' and its use for displaying content in a card-like format.",
+    "answer": "'Flutter Card' is a widget used to group related content, such as text and images, in a card-like format with rounded corners. It's often used to present information in a visually appealing way."
+  },
+  {
+    "questionNumber": "75",
+    "question": "What is 'Flutter AppBar,' and how is it used for creating app bars?",
+    "answer": "'Flutter AppBar' is a widget used to create the app bar at the top of the screen. It provides a space for app titles, actions, and navigation controls."
+  },
+  {
+    "questionNumber": "76",
+    "question": "Explain the purpose of 'Flutter AlertDialog' and its use for displaying dialogs.",
+    "answer": "'Flutter AlertDialog' is a widget used for displaying alert dialogs with informative content and user actions. It's commonly used to show important messages or gather user input."
+  },
+  {
+    "questionNumber": "77",
+    "question": "What is 'Flutter AnimationController,' and how is it used for animations?",
+    "answer": "'Flutter AnimationController' is a class used to control animations in Flutter. It allows you to define animation parameters, such as duration and curve, and manage the animation's progress."
+  },
+  {
+    "questionNumber": "78",
+    "question": "Explain the 'Flutter SingleChildScrollView' widget and its role in creating scrollable layouts.",
+    "answer": "'Flutter SingleChildScrollView' is a widget used to create scrollable layouts for its child widgets. It allows you to wrap a single child with scrolling capabilities."
+  },
+  {
+    "questionNumber": "79",
+    "question": "What is 'Flutter ClipRRect,' and how is it used for clipping widgets with rounded corners?",
+    "answer": "'Flutter ClipRRect' is a widget used to clip its child widget with rounded corners. It's commonly used to create rounded images and containers."
+  },
+  {
+    "questionNumber": "80",
+    "question": "Explain the concept of 'Flutter Keys' and their use in identifying and accessing widgets.",
+    "answer": "Flutter keys are identifiers assigned to widgets in the widget tree. They are used to uniquely identify and access specific widgets, especially when using 'GlobalKey' for references."
+  },
+  {
+    "questionNumber": "81",
+    "question": "What is 'Flutter Drawer,' and how is it used for creating navigation menus?",
+    "answer": "'Flutter Drawer' is a widget used to create a sliding navigation menu that can be accessed from the side of the screen. It's commonly used for app navigation and settings."
+  },
+  {
+    "questionNumber": "82",
+    "question": "Explain the 'Flutter InkWell' widget and its use for adding touch feedback to widgets.",
+    "answer": "'Flutter InkWell' is a widget used to add touch feedback to other widgets, such as buttons. It provides visual effects like ripples when the widget is tapped."
+  },
+  {
+    "questionNumber": "83",
+    "question": "What is 'Flutter AnimatedContainer,' and how is it used for animating container properties?",
+    "answer": "'Flutter AnimatedContainer' is a widget used for animating the properties of a container, such as its size, color, and alignment. It automatically animates changes in these properties."
+  },
+  {
+    "questionNumber": "84",
+    "question": "Explain the 'Flutter CircularProgressIndicator' widget and its use for displaying progress indicators.",
+    "answer": "'Flutter CircularProgressIndicator' is a widget used to display a circular progress indicator. It's often used to indicate that a task is in progress."
+  },
+  {
+    "questionNumber": "85",
+    "question": "What is 'Flutter CircularProgressIndicator,' and how is it used for indicating progress?",
+    "answer": "'Flutter CircularProgressIndicator' is a widget used to indicate that a task is in progress. It displays a circular animation that represents ongoing work, such as loading or processing."
+  },
+  {
+    "questionNumber": "86",
+    "question": "Explain the concept of 'Flutter PageView' and its use for creating swipeable page layouts.",
+    "answer": "'Flutter PageView' is a widget used to create swipeable page layouts, such as onboarding screens or image sliders. It allows users to navigate between pages by swiping horizontally."
+  },
+  {
+    "questionNumber": "87",
+    "question": "What is 'Flutter BottomSheet,' and how is it used for displaying additional content from the bottom of the screen?",
+    "answer": "'Flutter BottomSheet' is a widget used to display additional content or options from the bottom of the screen. It's often used for actions like sharing or filtering."
+  },
+  {
+    "questionNumber": "88",
+    "question": "Explain the concept of 'Flutter Navigator' and its role in app navigation.",
+    "answer": "'Flutter Navigator' is a widget used for managing app navigation and routing. It allows you to push and pop screens onto/from a navigation stack to navigate between different parts of the app."
+  },
+  {
+    "questionNumber": "89",
+    "question": "What is 'Flutter Future' and how is it used for asynchronous programming?",
+    "answer": "'Flutter Future' is an object used to represent a value or error that will be available at some point in the future. It is commonly used for asynchronous operations, such as network requests."
+  },
+  {
+    "questionNumber": "90",
+    "question": "Explain 'Flutter SliverAppBar' and its role in creating scrolling app bars.",
+    "answer": "'Flutter SliverAppBar' is a widget used to create scrolling app bars that expand and collapse as the user scrolls. It's commonly used in custom scroll views."
+  },
+  {
+    "questionNumber": "91",
+    "question": "What is 'Flutter ExpansionPanel' and how is it used for creating expandable panels?",
+    "answer": "'Flutter ExpansionPanel' is a widget used to create expandable panels that can be collapsed or expanded to reveal content. It's often used for creating collapsible sections in lists."
+  },
+  {
+    "questionNumber": "92",
+    "question": "Explain the concept of 'Flutter GlobalKey' and its use for accessing widgets.",
+    "answer": "'Flutter GlobalKey' is an identifier that allows you to access and manipulate widgets from outside their parent. It can be used to find widgets and trigger actions on them."
+  },
+  {
+    "questionNumber": "93",
+    "question": "What is 'Flutter ValueNotifier' and how is it used for managing mutable state?",
+    "answer": "'Flutter ValueNotifier' is a class used for managing mutable state in Flutter. It can notify listeners when its value changes, making it suitable for simple state management."
+  },
+  {
+    "questionNumber": "94",
+    "question": "Explain the purpose of 'Flutter ClipPath' and its use for clipping widgets with custom shapes.",
+    "answer": "'Flutter ClipPath' is a widget used to clip its child widget with a custom shape defined by a 'Path' object. It allows you to create widgets with non-rectangular clipping."
+  },
+  {
+    "questionNumber": "95",
+    "question": "What is 'Flutter FittedBox,' and how is it used for scaling and fitting child widgets?",
+    "answer": "'Flutter FittedBox' is a widget used to scale and fit a child widget within its constraints. It's often used to ensure that the child widget fits the available space."
+  },
+  {
+    "questionNumber": "96",
+    "question": "Explain the concept of 'Flutter MediaQuery' and its use for obtaining screen and device information.",
+    "answer": "'Flutter MediaQuery' is a widget used to obtain information about the screen and device, such as screen size, orientation, and pixel density. It allows you to create responsive layouts."
+  },
+  {
+    "questionNumber": "97",
+    "question": "What is 'Flutter Theme' and how is it used for theming an app?",
+    "answer": "'Flutter Theme' is a widget used to set the theme of an app, including colors, fonts, and other visual properties. It allows you to maintain a consistent look and feel throughout the app."
+  },
+  {
+    "questionNumber": "98",
+    "question": "Explain the concept of 'Flutter ShaderMask' and its use for applying custom shader effects to widgets.",
+    "answer": "'Flutter ShaderMask' is a widget used to apply custom shader effects to its child widget. It allows you to create visually interesting effects, such as gradients or patterns."
+  },
+  {
+    "questionNumber": "99",
+    "question": "What is 'Flutter Stepper,' and how is it used for creating step-by-step workflows?",
+    "answer": "'Flutter Stepper' is a widget used to create step-by-step workflows or processes. It presents a series of steps that users can navigate through, marking their progress."
+  },
+  {
+    "questionNumber": "100",
+    "question": "Explain the 'Flutter FractionallySizedBox' widget and its use for creating widgets with a fractional size.",
+    "answer": "'Flutter FractionallySizedBox' is a widget used to create widgets with a size that is a fraction of the parent widget's size. It's often used for creating responsive layouts."
+  }
+]
