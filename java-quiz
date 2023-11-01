@@ -1,0 +1,42 @@
+[
+    {
+      "question": "What is the main purpose of the 'public' keyword in Java?",
+      "options": [
+        "A. To make a method accessible from any class",
+        "B. To define a variable as a constant",
+        "C. To specify the entry point of a Java program",
+        "D. To indicate a private method"
+      ],
+      "answer": "A. To make a method accessible from any class"
+    },
+    {
+      "question": "Which data type is used to store a single character in Java?",
+      "options": [
+        "A. int",
+        "B. char",
+        "C. string",
+        "D. boolean"
+      ],
+      "answer": "B. char"
+    },
+    {
+      "question": "What is the purpose of the 'static' keyword in Java?",
+      "options": [
+        "A. To create an instance of a class",
+        "B. To make a variable constant",
+        "C. To declare a method as a class method",
+        "D. To prevent inheritance"
+      ],
+      "answer": "C. To declare a method as a class method"
+    },
+    {
+      "question": "Which Java keyword is used to create an object of a class?",
+      "options": [
+        "A. new",
+        "B. class",
+        "C. object",
+        "D. instance"
+      ],
+      "answer": "A. new"
+    }
+]
