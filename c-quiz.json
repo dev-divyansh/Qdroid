@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the difference between 'int' and 'float' data types in C?",
+    "options": [
+      "A. 'int' is used for integer values, while 'float' is used for floating-point numbers.",
+      "B. 'int' is used for floating-point numbers, while 'float' is used for integer values.",
+      "C. 'int' and 'float' are interchangeable data types in C.",
+      "D. 'int' is used for character data, while 'float' is used for string data."
+    ],
+    "answer": "A. 'int' is used for integer values, while 'float' is used for floating-point numbers."
+  },
+  {
+    "question": "Explain the 'sizeof' operator in C. What does it return?",
+    "options": [
+      "A. 'sizeof' returns the size of an expression or a variable in bytes.",
+      "B. 'sizeof' is used to calculate the number of elements in an array.",
+      "C. 'sizeof' returns the memory address of a variable.",
+      "D. 'sizeof' returns the maximum value that a data type can hold."
+    ],
+    "answer": "A. 'sizeof' returns the size of an expression or a variable in bytes."
+  },
+  {
+    "question": "What is a pointer in C, and how is it different from a regular variable?",
+    "options": [
+      "A. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it contains the actual data.",
+      "B. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it doesn't contain the actual data; it points to the data.",
+      "C. A pointer is a constant value that cannot be changed, while a regular variable can be modified.",
+      "D. A pointer is used for arithmetic operations, while a regular variable is not."
+    ],
+    "answer": "B. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it doesn't contain the actual data; it points to the data."
+  },
+  {
+    "question": "What is the purpose of the 'const' keyword in C?",
+    "options": [
+      "A. 'const' is used to declare a variable as a constant, making its value immutable.",
+      "B. 'const' is used to declare a variable as a non-constant, allowing its value to be modified.",
+      "C. 'const' is used to declare a variable as a floating-point number.",
+      "D. 'const' is used to declare a variable as an integer value."
+    ],
+    "answer": "A. 'const' is used to declare a variable as a constant, making its value immutable."
+  },
+  {
+    "question": "Explain the 'break' and 'continue' statements in C.",
+    "options": [
+      "A. 'break' is used to exit a loop prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of the loop.",
+      "B. 'break' is used to skip the current iteration of a loop, while 'continue' is used to exit the loop.",
+      "C. 'break' and 'continue' are used interchangeably in C.",
+      "D. 'break' and 'continue' are used to create infinite loops."
+    ],
+    "answer": "A. 'break' is used to exit a loop prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of the loop."
+  },
+  {
+    "question": "What is a 'function pointer' in C, and how is it used?",
+    "options": [
+      "A. A function pointer is a pointer to a variable in C.",
+      "B. A function pointer is a pointer that points to a memory location in C.",
+      "C. A function pointer is a pointer that points to a function in C. It is used to call functions indirectly by referencing their memory addresses.",
+      "D. A function pointer is used to create custom data types in C."
+    ],
+    "answer": "C. A function pointer is a pointer that points to a function in C. It is used to call functions indirectly by referencing their memory addresses."
+  },
+  {
+    "question": "What is the 'preprocessor' in C, and what are its directives used for?",
+    "options": [
+      "A. The preprocessor is used for executing code before compilation, and its directives are used for defining constants, including header files, and conditional compilation.",
+      "B. The preprocessor is used for post-processing code after compilation.",
+      "C. The preprocessor is used to optimize code for runtime execution.",
+      "D. The preprocessor is responsible for printing output to the console."
+    ],
+    "answer": "A. The preprocessor is used for executing code before compilation, and its directives are used for defining constants, including header files, and conditional compilation."
+  },
+  {
+    "question": "Explain the difference between 'malloc' and 'calloc' in C for dynamic memory allocation.",
+    "options": [
+      "A. 'malloc' is used for allocating memory and initializing it to zero, while 'calloc' is used for allocating memory without initialization.",
+      "B. 'malloc' and 'calloc' are used interchangeably in C.",
+      "C. 'malloc' is used for deallocating memory, while 'calloc' is used for allocating memory.",
+      "D. 'malloc' and 'calloc' are not used for memory allocation in C."
+    ],
+    "answer": "A. 'malloc' is used for allocating memory and initializing it to zero, while 'calloc' is used for allocating memory without initialization."
+  },
+  {
+    "question": "What is a 'structure' in C, and how is it different from an 'array'?",
+    "options": [
+      "A. A structure is a data type that can store multiple values of the same data type, while an array is a collection of different data types.",
+      "B. A structure is a collection of variables of different data types grouped together under a single name, while an array is an ordered collection of elements of the same data type.",
+      "C. A structure is a special type of array in C.",
+      "D. A structure and an array are interchangeable data types in C."
+    ],
+    "answer": "B. A structure is a collection of variables of different data types grouped together under a single name, while an array is an ordered collection of elements of the same data type."
+  },
+  {
+    "question": "What is 'recursion' in C, and how does it work?",
+    "options": [
+      "A. Recursion is a data type in C that allows for nested structures.",
+      "B. Recursion is a programming technique in which a function calls itself to solve a problem. It works by breaking the problem into smaller subproblems.",
+      "C. Recursion is a reserved keyword in C.",
+      "D. Recursion is used for implementing multi-threading in C programs."
+    ],
+    "answer": "B. Recursion is a programming technique in which a function calls itself to solve a problem. It works by breaking the problem into smaller subproblems."
+  }
+]
