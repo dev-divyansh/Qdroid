@@ -178,5 +178,5 @@
     "questionNumber": "36",
     "question": "Explain 'type qualifiers' in C, such as 'const' and 'volatile'.",
     "answer": "'Type qualifiers' are used to specify additional properties of a data type. 'Const' specifies that a variable's value cannot be changed, and 'volatile' specifies that a variable's value may change at any time."
-  },
+  }
 ]
