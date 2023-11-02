@@ -1,1 +1,182 @@
-
+[
+  {
+    "questionNumber": "01",
+    "question": "What is C programming?",
+    "answer": "C is a general-purpose, procedural programming language that was developed in the early 1970s at Bell Labs by Dennis Ritchie. It is widely used for system programming, embedded systems, and application development."
+  },
+  {
+    "questionNumber": "02",
+    "question": "What is the difference between 'int' and 'float' data types in C?",
+    "answer": "'int' is used for integer values, which are whole numbers, while 'float' is used for floating-point values, which can represent decimal numbers with fractional parts."
+  },
+  {
+    "questionNumber": "03",
+    "question": "Explain the 'printf' and 'scanf' functions in C.",
+    "answer": "'printf' is used to print formatted output to the console, while 'scanf' is used to read formatted input from the console. Both functions are part of the C Standard Library."
+  },
+  {
+    "questionNumber": "04",
+    "question": "What is a variable in C, and how do you declare one?",
+    "answer": "A variable in C is a named location in memory used to store data. You declare a variable by specifying its data type and a name, like 'int x;' to declare an integer variable."
+  },
+  {
+    "questionNumber": "05",
+    "question": "What is the 'sizeof' operator in C, and how is it used?",
+    "answer": "The 'sizeof' operator is used to determine the size (in bytes) of a data type or a variable. For example, 'sizeof(int)' returns the size of an integer data type."
+  },
+  {
+    "questionNumber": "06",
+    "question": "Explain the 'if-else' statement in C.",
+    "answer": "The 'if-else' statement is used for conditional execution. If a condition is true, the code inside the 'if' block is executed; otherwise, the code inside the 'else' block is executed."
+  },
+  {
+    "questionNumber": "07",
+    "question": "What is a 'loop' in C, and what are the types of loops?",
+    "answer": "A loop is a control structure that repeats a block of code until a certain condition is met. The types of loops in C include 'for,' 'while,' and 'do-while' loops."
+  },
+  {
+    "questionNumber": "08",
+    "question": "What is an 'array' in C, and how is it declared?",
+    "answer": "An array is a collection of elements of the same data type. It is declared by specifying the data type of its elements and the number of elements, like 'int numbers[10];' to declare an integer array with 10 elements."
+  },
+  {
+    "questionNumber": "09",
+    "question": "What is a 'function' in C, and how is it defined?",
+    "answer": "A function is a self-contained block of code that performs a specific task. It is defined by specifying its return type, name, and parameters, like 'int add(int a, int b) { return a + b; }' to define an addition function."
+  },
+  {
+    "questionNumber": "10",
+    "question": "Explain the concept of 'pointers' in C.",
+    "answer": "Pointers are variables that store memory addresses. They are often used for dynamic memory allocation, passing functions as arguments, and accessing data structures."
+  },
+  {
+    "questionNumber": "11",
+    "question": "What is the 'switch' statement in C, and how is it used?",
+    "answer": "The 'switch' statement is used for multi-way branching. It evaluates an expression and compares it to case values. Depending on the match, a specific block of code is executed."
+  },
+  {
+    "questionNumber": "12",
+    "question": "Explain the 'break' and 'continue' statements in C.",
+    "answer": "'Break' is used to exit a loop or switch statement prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of a loop."
+  },
+  {
+    "questionNumber": "13",
+    "question": "What is the 'const' keyword in C, and how is it used?",
+    "answer": "The 'const' keyword is used to declare constants. It specifies that a variable's value cannot be changed after initialization, like 'const int x = 10;' to declare an integer constant."
+  },
+  {
+    "questionNumber": "14",
+    "question": "Explain the concept of 'structure' and 'union' in C.",
+    "answer": "A structure is a user-defined data type that groups related variables together. A union is similar but allows variables to share the same memory space, saving memory."
+  },
+  {
+    "questionNumber": "15",
+    "question": "What are 'file operations' in C, and how are they performed?",
+    "answer": "File operations involve reading from and writing to files. In C, you can use functions like 'fopen,' 'fclose,' 'fread,' 'fwrite,' 'fseek,' and 'fprintf' to perform file operations."
+  },
+  {
+    "questionNumber": "16",
+    "question": "Explain 'dynamic memory allocation' in C using 'malloc' and 'free'.",
+    "answer": "Dynamic memory allocation involves allocating memory at runtime using functions like 'malloc.' The 'free' function is used to release the allocated memory, preventing memory leaks."
+  },
+  {
+    "questionNumber": "17",
+    "question": "What is the 'preprocessor' in C, and how is it used?",
+    "answer": "The preprocessor is a tool that processes the source code before compilation. It is responsible for tasks like including header files, macro expansion, and conditional compilation using directives like '#include' and '#define.'"
+  },
+  {
+    "questionNumber": "18",
+    "question": "What is 'recursion' in C, and when is it used?",
+    "answer": "Recursion is a technique where a function calls itself. It is used when a problem can be broken down into smaller, similar subproblems. A base case is necessary to prevent infinite recursion."
+  },
+  {
+    "questionNumber": "19",
+    "question": "What is 'bitwise manipulation' in C, and how is it used?",
+    "answer": "Bitwise manipulation involves operations at the bit level, such as AND, OR, XOR, and shifts. It is used for tasks like setting or clearing individual bits, creating bit masks, and optimizing code."
+  },
+  {
+    "questionNumber": "20",
+    "question": "Explain the 'const' and 'volatile' keywords in C.",
+    "answer": "'Const' is used to declare constants, as explained earlier. 'Volatile' is used to indicate that a variable's value may change at any time, even without any direct action by the code."
+  },
+  {
+    "questionNumber": "21",
+    "question": "What are 'data types' in C, and how are they categorized?",
+    "answer": "Data types specify the type of data that a variable can hold. They are categorized into basic data types (e.g., int, float), derived data types (e.g., arrays, pointers), and user-defined data types (e.g., structures, unions)."
+  },
+  {
+    "questionNumber": "22",
+    "question": "Explain 'type casting' in C, and why is it used?",
+    "answer": "Type casting is the process of converting a value of one data type to another. It is used to ensure that data types are compatible and to avoid data loss during assignments or operations."
+  },
+  {
+    "questionNumber": "23",
+    "question": "What are 'function pointers' in C, and how are they used?",
+    "answer": "Function pointers are pointers that point to functions instead of data. They are used for tasks like implementing callback functions, dynamic function selection, and creating flexible function interfaces."
+  },
+  {
+    "questionNumber": "24",
+    "question": "Explain 'linked lists' in C and their advantages and disadvantages.",
+    "answer": "A linked list is a data structure that consists of nodes, each containing data and a reference to the next node. Advantages include dynamic memory allocation and efficient insertions and deletions. Disadvantages include high memory overhead and slower random access."
+  },
+  {
+    "questionNumber": "25",
+    "question": "What is 'stack' and 'queue' data structures in C, and how do they differ?",
+    "answer": "A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, while a queue follows the First-In-First-Out (FIFO) principle. Stacks are used for tasks like function call management, and queues are used for tasks like task scheduling."
+  },
+  {
+    "questionNumber": "26",
+    "question": "Explain 'recursion' in C, and when is it used?",
+    "answer": "Recursion is a technique where a function calls itself. It is used when a problem can be broken down into smaller, similar subproblems. A base case is necessary to prevent infinite recursion."
+  },
+  {
+    "questionNumber": "27",
+    "question": "What is the 'header file' in C, and how is it used?",
+    "answer": "A header file is a file that contains declarations for functions, variables, and macros that are defined in other source files. It is used to provide information about the interface of a C program to the compiler."
+  },
+  {
+    "questionNumber": "28",
+    "question": "Explain 'structure packing' and 'alignment' in C.",
+    "answer": "Structure packing and alignment are techniques used to optimize the memory layout of structures. Packing reduces memory usage, while alignment ensures that data is efficiently accessed by the CPU."
+  },
+  {
+    "questionNumber": "29",
+    "question": "What is 'bit manipulation' and 'bit masking' in C, and how are they used?",
+    "answer": "Bit manipulation involves operations at the bit level, and bit masking is the process of extracting specific bits from a value. They are used for tasks like setting or clearing individual bits and performing bitwise operations."
+  },
+  {
+    "questionNumber": "30",
+    "question": "Explain 'volatile' and 'const' in C and their use cases.",
+    "answer": "'Volatile' is used to indicate that a variable's value may change at any time, making it essential for optimizing code that interacts with hardware or shared memory. 'Const' is used to declare constants and ensure data integrity."
+  },
+  {
+    "questionNumber": "31",
+    "question": "What is 'function overloading' and 'function overriding' in C, and how do they differ?",
+    "answer": "Function overloading allows multiple functions with the same name but different parameters, while function overriding involves redefining a base class function in a derived class. Overloading is resolved at compile-time, while overriding is resolved at runtime."
+  },
+  {
+    "questionNumber": "32",
+    "question": "Explain the 'static' keyword in C and its use cases.",
+    "answer": "The 'static' keyword is used for creating static variables, which have a single memory location and retain their values across function calls. It is also used to create static functions and limit the scope of variables to a block or file."
+  },
+  {
+    "questionNumber": "33",
+    "question": "What is 'file handling' in C, and how is it performed?",
+    "answer": "File handling involves reading from and writing to files. In C, you can use functions like 'fopen,' 'fclose,' 'fread,' 'fwrite,' 'fseek,' and 'fprintf' to perform file operations."
+  },
+  {
+    "questionNumber": "34",
+    "question": "Explain the concept of 'memory leak' in C and how to prevent it.",
+    "answer": "A memory leak occurs when memory is allocated but not deallocated, resulting in memory wastage. To prevent memory leaks, it is essential to free dynamically allocated memory using 'free' and close open files using 'fclose.'"
+  },
+  {
+    "questionNumber": "35",
+    "question": "What are 'macros' in C, and how are they defined?",
+    "answer": "Macros are preprocessor directives defined using the '#define' keyword. They are used for defining constants, inline functions, and for code simplification."
+  },
+  {
+    "questionNumber": "36",
+    "question": "Explain 'type qualifiers' in C, such as 'const' and 'volatile'.",
+    "answer": "'Type qualifiers' are used to specify additional properties of a data type. 'Const' specifies that a variable's value cannot be changed, and 'volatile' specifies that a variable's value may change at any time."
+  },
+]
