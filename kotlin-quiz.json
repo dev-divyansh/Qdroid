@@ -1,1 +1,173 @@
+[
+  {
+    "question": "What is Kotlin, and how does it relate to Java?",
+    "options": [
+      "A. Kotlin is a cross-platform mobile app development framework.",
+      "B. Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and is fully interoperable with Java.",
+      "C. Kotlin is a replacement for Java in Android development.",
+      "D. Kotlin is an open-source web development framework."
+    ],
+    "answer": "B. Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and is fully interoperable with Java."
+  },
+  {
+    "question": "Explain the concept of 'null safety' in Kotlin.",
+    "options": [
+      "A. Null safety refers to the ability to use null values in Kotlin without any restrictions.",
+      "B. Null safety is a feature in Kotlin that helps prevent null pointer exceptions by distinguishing nullable and non-nullable types.",
+      "C. Null safety is a design pattern used in Kotlin for handling exceptions.",
+      "D. Null safety is a concept used in Kotlin to ensure that variables are always set to null."
+    ],
+    "answer": "B. Null safety is a feature in Kotlin that helps prevent null pointer exceptions by distinguishing nullable and non-nullable types."
+  },
+  {
+    "question": "What is a 'data class' in Kotlin, and why is it used?",
+    "options": [
+      "A. A data class is a class that cannot have any methods.",
+      "B. A data class is used to define the data model for an application.",
+      "C. A data class is a class that is used for storing only data and automatically generates standard functionality like equals(), hashCode(), and toString().",
+      "D. A data class is a class that can only have one instance at a time."
+    ],
+    "answer": "C. A data class is a class that is used for storing only data and automatically generates standard functionality like equals(), hashCode(), and toString()."
+  },
+  {
+    "question": "Explain the 'when' expression in Kotlin and how it differs from a 'switch' statement in Java.",
+    "options": [
+      "A. The 'when' expression is a more concise and powerful replacement for the 'switch' statement in Java. It allows for complex conditional expressions and can return values.",
+      "B. The 'when' expression is used for type casting in Kotlin, while the 'switch' statement is used for iteration in Java.",
+      "C. The 'when' expression and 'switch' statement are identical in functionality.",
+      "D. The 'when' expression is used for creating loops in Kotlin."
+    ],
+    "answer": "A. The 'when' expression is a more concise and powerful replacement for the 'switch' statement in Java. It allows for complex conditional expressions and can return values."
+  },
+  {
+    "question": "What are 'coroutines' in Kotlin, and how do they differ from threads?",
+    "options": [
+      "A. Coroutines are a type of data structure used in Kotlin for storing collections.",
+      "B. Coroutines and threads serve the same purpose and have no significant differences.",
+      "C. Coroutines are lightweight, non-blocking, and more efficient than threads. They are used for asynchronous programming in Kotlin.",
+      "D. Coroutines are used for defining variables in Kotlin."
+    ],
+    "answer": "C. Coroutines are lightweight, non-blocking, and more efficient than threads. They are used for asynchronous programming in Kotlin."
+  },
+  {
+    "question": "Explain the 'init' block in a Kotlin class.",
+    "options": [
+      "A. The 'init' block is a special constructor used to initialize properties in a Kotlin class.",
+      "B. The 'init' block is used for creating instances of a class in Kotlin.",
+      "C. The 'init' block is a method used for data binding in Android.",
+      "D. The 'init' block is used for defining user interfaces."
+    ],
+    "answer": "A. The 'init' block is a special constructor used to initialize properties in a Kotlin class."
+  },
+  {
+    "question": "What is a 'lambda expression' in Kotlin, and how is it used?",
+    "options": [
+      "A. A lambda expression is used for creating objects in Kotlin.",
+      "B. A lambda expression is a way to define a function (or method) in Kotlin without a name. It can be used as an argument to higher-order functions.",
+      "C. A lambda expression is used for defining user interfaces in Android.",
+      "D. A lambda expression is a type of data structure in Kotlin."
+    ],
+    "answer": "B. A lambda expression is a way to define a function (or method) in Kotlin without a name. It can be used as an argument to higher-order functions."
+  },
+  {
+    "question": "What is 'type inference' in Kotlin?",
+    "options": [
+      "A. Type inference is a process used in Kotlin for enforcing strict type declarations.",
+      "B. Type inference is the ability of the Kotlin compiler to automatically determine the data type of a variable based on its value.",
+      "C. Type inference is a design pattern used for error handling in Kotlin.",
+      "D. Type inference is a concept used in Kotlin for defining custom data types."
+    ],
+    "answer": "B. Type inference is the ability of the Kotlin compiler to automatically determine the data type of a variable based on its value."
+  },
+  {
+    "question": "Explain the 'by lazy' property delegate in Kotlin.",
+    "options": [
+      "A. 'by lazy' is used for defining private properties in Kotlin classes.",
+      "B. 'by lazy' is a property delegate used for initializing properties only when they are accessed for the first time.",
+      "C. 'by lazy' is a keyword used for defining abstract classes in Kotlin.",
+      "D. 'by lazy' is a keyword used for defining inline functions in Kotlin."
+    ],
+    "answer": "B. 'by lazy' is a property delegate used for initializing properties only when they are accessed for the first time."
+  },
+  {
+    "question": "What is the purpose of 'sealed classes' in Kotlin?",
+    "options": [
+      "A. Sealed classes are used for creating single instances of objects in Kotlin.",
+      "B. Sealed classes are used for defining abstract methods in Kotlin.",
+      "C. Sealed classes are used for restricting inheritance. They can only be extended within the same file where they are declared.",
+      "D. Sealed classes are used for database operations in Android."
+    ],
+    "answer": "C. Sealed classes are used for restricting inheritance. They can only be extended within the same file where they are declared."
+  },
+  {
+    "question": "What is the 'elvis operator' (?:) in Kotlin, and how is it used?",
+    "options": [
+      "A. The 'elvis operator' is used for creating loops in Kotlin.",
+      "B. The 'elvis operator' is used for defining data classes in Kotlin.",
+      "C. The 'elvis operator' is used to provide a default value for a nullable expression. It returns the expression if it's not null, or the default value if it's null.",
+      "D. The 'elvis operator' is used to access the last element of a list."
+    ],
+    "answer": "C. The 'elvis operator' is used to provide a default value for a nullable expression. It returns the expression if it's not null, or the default value if it's null."
+  },
+  {
+    "question": "Explain the 'let' extension function in Kotlin.",
+    "options": [
+      "A. The 'let' function is used for starting a new Android application.",
+      "B. The 'let' function is used for defining user interfaces in Android.",
+      "C. The 'let' function is an extension function in Kotlin that is used for invoking a block of code on a non-null object.",
+      "D. The 'let' function is used for handling exceptions in Kotlin."
+    ],
+    "answer": "C. The 'let' function is an extension function in Kotlin that is used for invoking a block of code on a non-null object."
+  },
+  {
+    "question": "What is 'infix notation' in Kotlin, and when is it used?",
+    "options": [
+      "A. Infix notation is a way of writing functions in Kotlin that are only used in mathematical expressions.",
+      "B. Infix notation is a way to define custom operators in Kotlin.",
+      "C. Infix notation is a design pattern used in Android development.",
+      "D. Infix notation is used for defining user interfaces in Kotlin."
+    ],
+    "answer": "B. Infix notation is a way to define custom operators in Kotlin."
+  },
+  {
+    "question": "What is a 'companion object' in Kotlin, and how is it different from a regular object?",
+    "options": [
+      "A. A companion object is a design pattern used in Kotlin for organizing classes.",
+      "B. A companion object is a singleton object that is associated with a class, and its members can be accessed using the class name. It is used for creating global utility functions and properties.",
+      "C. A companion object is a type of data structure in Kotlin.",
+      "D. A companion object is used for creating instances of a class."
+    ],
+    "answer": "B. A companion object is a singleton object that is associated with a class, and its members can be accessed using the class name. It is used for creating global utility functions and properties."
+  },
+  {
+    "question": "What is the 'with' function in Kotlin, and how is it used?",
+    "options": [
+      "A. The 'with' function is used for creating instances of classes in Kotlin.",
+      "B. The 'with' function is used for defining animations in Android apps.",
+      "C. The 'with' function is used to simplify the usage of an object's properties and functions without the need to reference the object explicitly.",
+      "D. The 'with' function is used for handling background tasks in Kotlin."
+    ],
+    "answer": "C. The 'with' function is used to simplify the usage of an object's properties and functions without the need to reference the object explicitly."
+  },
+  {
+    "question": "Explain 'in' and 'is' operators in Kotlin and their use cases.",
+    "options": [
+      "A. 'in' and 'is' operators are used for defining custom data types in Kotlin.",
+      "B. 'in' and 'is' operators are used to check if an object is an instance of a specific type (or if a value belongs to a range or collection).",
+      "C. 'in' and 'is' operators are used for creating singleton objects in Kotlin.",
+      "D. 'in' and 'is' operators are used for creating loops in Kotlin."
+    ],
+    "answer": "B. 'in' and 'is' operators are used to check if an object is an instance of a specific type (or if a value belongs to a range or collection)."
+  },
+  {
+    "question": "What is the purpose of the 'apply' function in Kotlin?",
+    "options": [
+      "A. The 'apply' function is used for creating instances of classes in Kotlin.",
+      "B. The 'apply' function is used to apply a lambda expression to an object and returns the object itself. It is often used for configuring objects during their creation.",
+      "C. The 'apply' function is used for defining animations in Android apps.",
+      "D. The 'apply' function is used for creating loops in Kotlin."
+    ],
+    "answer": "B. The 'apply' function is used to apply a lambda expression to an object and returns the object itself. It is often used for configuring objects during their creation."
+  }
+]
 
