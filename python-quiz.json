@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What is Python and what are its key features?",
+    "options": [
+      "A. A high-level programming language with dynamic semantics.",
+      "B. A low-level programming language for hardware control.",
+      "C. A markup language for web development.",
+      "D. An operating system."
+    ],
+    "answer": "A. A high-level programming language with dynamic semantics."
+  },
+  {
+    "question": "Explain the difference between Python 2 and Python 3.",
+    "options": [
+      "A. Python 2 is faster than Python 3.",
+      "B. Python 3 is not backward-compatible with Python 2.",
+      "C. Python 3 is the latest version, while Python 2 is obsolete.",
+      "D. Python 2 has a different syntax than Python 3."
+    ],
+    "answer": "B. Python 3 is not backward-compatible with Python 2."
+  },
+  {
+    "question": "What are the built-in data types in Python?",
+    "options": [
+      "A. int, float, string, list, dictionary, tuple, set",
+      "B. number, text, array, map, object",
+      "C. int, double, string, list, map, set, queue",
+      "D. numeric, char, array, hash, vector"
+    ],
+    "answer": "A. int, float, string, list, dictionary, tuple, set"
+  },
+  {
+    "question": "How do you comment out a single line of code in Python?",
+    "options": [
+      "A. Using // at the beginning of the line",
+      "B. Using # at the beginning of the line",
+      "C. Using /* and */ to enclose the line",
+      "D. Using -- at the end of the line"
+    ],
+    "answer": "B. Using # at the beginning of the line"
+  },
+  {
+    "question": "Explain the purpose of the 'if' statement in Python.",
+    "options": [
+      "A. To define a loop",
+      "B. To declare a variable",
+      "C. To execute a block of code conditionally",
+      "D. To import external libraries"
+    ],
+    "answer": "C. To execute a block of code conditionally"
+  },
+  {
+    "question": "What is the difference between '==' and 'is' in Python?",
+    "options": [
+      "A. '==' is used for assignment, while 'is' is used for comparison.",
+      "B. '==' is used for value comparison, while 'is' is used for identity comparison.",
+      "C. '==' and 'is' are interchangeable in Python.",
+      "D. '==' is used for comparing strings, while 'is' is used for comparing numbers."
+    ],
+    "answer": "B. '==' is used for value comparison, while 'is' is used for identity comparison."
+  },
+  {
+    "question": "Explain the purpose of a Python 'list' and 'tuple'.",
+    "options": [
+      "A. Lists are immutable, while tuples are mutable.",
+      "B. Lists are ordered, mutable, and allow duplicate elements, while tuples are ordered and immutable.",
+      "C. Lists are used for mathematical calculations, while tuples are used for storing text data.",
+      "D. Lists are more memory-efficient than tuples."
+    ],
+    "answer": "B. Lists are ordered, mutable, and allow duplicate elements, while tuples are ordered and immutable."
+  },
+  {
+    "question": "What is the 'global' keyword used for in Python?",
+    "options": [
+      "A. To define a global variable",
+      "B. To specify a global function",
+      "C. To indicate that a variable is local to a specific function",
+      "D. To import external libraries"
+    ],
+    "answer": "A. To define a global variable"
+  },
+  {
+    "question": "What is the purpose of 'try', 'except', and 'finally' in exception handling?",
+    "options": [
+      "A. 'try' is used to raise an exception, 'except' handles exceptions, and 'finally' is used to clean up resources.",
+      "B. 'try' is used to handle exceptions, 'except' raises exceptions, and 'finally' is used for debugging.",
+      "C. 'try' is used to define a loop, 'except' is used to terminate a program, and 'finally' is used for system maintenance.",
+      "D. 'try' is used to run code that might raise an exception, 'except' handles exceptions, and 'finally' is used to clean up resources whether an exception occurred or not."
+    ],
+    "answer": "D. 'try' is used to run code that might raise an exception, 'except' handles exceptions, and 'finally' is used to clean up resources whether an exception occurred or not."
+  },
+  {
+    "question": "What is the purpose of the 'lambda' function in Python?",
+    "options": [
+      "A. To define a variable",
+      "B. To create an anonymous function",
+      "C. To declare a class",
+      "D. To import external libraries"
+    ],
+    "answer": "B. To create an anonymous function"
+  },
+  {
+    "question": "Explain the 'map' and 'filter' functions in Python.",
+    "options": [
+      "A. 'map' is used for filtering data, while 'filter' is used for mapping data.",
+      "B. 'map' and 'filter' are interchangeable functions in Python.",
+      "C. 'map' applies a function to all items in an input list, while 'filter' filters items based on a specified condition.",
+      "D. 'map' and 'filter' are used for file input and output in Python."
+    ],
+    "answer": "C. 'map' applies a function to all items in an input list, while 'filter' filters items based on a specified condition."
+  },
+  {
+    "question": "What is the purpose of the 'list comprehension' in Python?",
+    "options": [
+      "A. To create a list of Python comprehensions",
+      "B. To simplify the creation of lists using a single line of code",
+      "C. To define a list of lists",
+      "D. To filter lists based on a specified condition"
+    ],
+    "answer": "B. To simplify the creation of lists using a single line of code"
+  },
+  {
+    "question": "Explain the 'dictionary' data type in Python.",
+    "options": [
+      "A. A dictionary is an ordered collection of elements with duplicate values.",
+      "B. A dictionary is an unordered collection of key-value pairs, where each key is unique.",
+      "C. A dictionary is a list of elements with integer keys.",
+      "D. A dictionary is a one-dimensional array."
+    ],
+    "answer": "B. A dictionary is an unordered collection of key-value pairs, where each key is unique."
+  },
+  {
+    "question": "What is the purpose of 'recursion' in Python?",
+    "options": [
+      "A. Recursion is used for creating recursive functions.",
+      "B. Recursion is used for looping in Python.",
+      "C. Recursion is a programming technique where a function calls itself to solve a problem.",
+      "D. Recursion is used for debugging code."
+    ],
+    "answer": "C. Recursion is a programming technique where a function calls itself to solve a problem."
+  },
+  {
+    "question": "What is the role of 'inheritance' in object-oriented programming?",
+    "options": [
+      "A. Inheritance allows a class to inherit properties and methods from another class.",
+      "B. Inheritance is used to create an instance of a class.",
+      "C. Inheritance is used for data validation.",
+      "D. Inheritance is used for defining new classes."
+    ],
+    "answer": "A. Inheritance allows a class to inherit properties and methods from another class."
+  },
+  {
+    "question": "Explain the purpose of 'modules' and 'packages' in Python.",
+    "options": [
+      "A. Modules are used for debugging, while packages are used for unit testing.",
+      "B. Modules are used to organize Python code into files, while packages are used to organize modules into directories.",
+      "C. Modules are used for creating GUI interfaces, while packages are used for database operations.",
+      "D. Modules and packages serve the same purpose and are interchangeable."
+    ],
+    "answer": "B. Modules are used to organize Python code into files, while packages are used to organize modules into directories."
+  },
+  {
+    "question": "What is the Python Global Interpreter Lock (GIL) and how does it affect multi-threading?",
+    "options": [
+      "A. The GIL is a system lock used for data encryption in Python.",
+      "B. The GIL is a programming language used for defining global variables.",
+      "C. The GIL allows multiple threads to execute Python code simultaneously.",
+      "D. The GIL restricts the execution of multiple threads in Python, making multi-threading less effective for CPU-bound tasks."
+    ],
+    "answer": "D. The GIL restricts the execution of multiple threads in Python, making multi-threading less effective for CPU-bound tasks."
+  },
+  {
+    "question": "What is the purpose of 'decorators' in Python?",
+    "options": [
+      "A. Decorators are used for adding decorations to web pages.",
+      "B. Decorators are used for defining classes.",
+      "C. Decorators are used for extending built-in Python functions.",
+      "D. Decorators are used for modifying or enhancing the behavior of functions or methods."
+    ],
+    "answer": "D. Decorators are used for modifying or enhancing the behavior of functions or methods."
+  }
+]
