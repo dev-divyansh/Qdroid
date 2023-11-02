@@ -1,102 +1,78 @@
 [
   {
+    "question": "What is Java? Explain its key features.",
+    "answer": "Java is a high-level, object-oriented, and platform-independent programming language. Its key features include platform independence, object-oriented nature, simplicity, robustness, portability, security, and multi-threading support."
+  },
+  {
+    "question": "What is the difference between 'public,' 'private,' 'protected,' and 'default' access modifiers in Java?",
+    "answer": "Public: Accessible from anywhere\nPrivate: Accessible only within the class\nProtected: Accessible within the package and subclasses\nDefault (no modifier): Accessible within the package"
+  },
+  {
+    "question": "Explain the concept of method overloading in Java.",
+    "answer": "Method overloading allows defining multiple methods in a class with the same name but different parameter lists. The compiler determines the appropriate method to call based on the number or type of arguments passed."
+  },
+  {
+    "question": "What is the 'static' keyword in Java, and how is it used?",
+    "answer": "The 'static' keyword is used to create class-level variables and methods that are shared among all instances of a class. These members belong to the class itself, not to any specific instance."
+  },
+  {
+    "question": "What is a Java package, and why is it used?",
+    "answer": "A Java package is a way to organize classes into namespaces. It helps in preventing naming conflicts and makes it easier to manage and locate related classes and interfaces."
+  },
+  {
+    "question": "Explain the difference between 'final,' 'finally,' and 'finalize' in Java.",
+    "answer": "Final: Used to declare a constant, make a class immutable, or prevent method overriding\nFinally: A block used to ensure code execution, often in exception handling\nFinalize: A method used for resource cleanup, called by the garbage collector"
+  },
+  {
+    "question": "What is the Java Virtual Machine (JVM), and why is it important for Java applications?",
+    "answer": "The JVM is an integral part of the Java platform and is responsible for executing Java bytecode. It provides platform independence, memory management, and automatic garbage collection, making Java applications portable and secure."
+  },
+  {
+    "question": "Explain the 'equals' and 'hashCode' methods in Java and their relationship.",
+    "answer": "'equals' is a method used to compare the contents of two objects for equality, while 'hashCode' returns a hash code value for an object. They are related because if two objects are equal (according to 'equals'), they should have the same hash code."
+  },
+  {
+    "question": "What is an interface in Java, and how does it differ from a class?",
+    "answer": "An interface in Java is a collection of abstract methods and constant fields. It defines a contract that implementing classes must adhere to. Unlike classes, interfaces cannot have instance variables or constructors."
+  },
+  {
+    "question": "Explain the purpose and usage of the 'try,' 'catch,' 'finally,' and 'throw' keywords in exception handling.",
+    "answer": "Try: Defines a block of code where exceptions might occur\nCatch: Defines a block of code to handle exceptions\nFinally: Defines a block of code that is executed regardless of whether an exception is thrown or not\nThrow: Used to manually throw an exception"
+  },
+  {
+    "question": "What are constructors in Java, and how do they differ from regular methods?",
+    "answer": "Constructors are special methods used for initializing objects. They have the same name as the class and don't have a return type. They are automatically called when an object is created and cannot be called explicitly."
+  },
+  {
+    "question": "Explain the 'super' and 'this' keywords in Java.",
+    "answer": "'Super' is used to access the superclass members in a subclass, while 'this' is used to refer to the current class's instance variables or methods. 'Super' is often used in constructors to call the superclass constructor."
+  },
+  {
     "question": "What is the purpose of the 'transient' keyword in Java?",
-    "options": [
-      "A. To make a variable constant",
-      "B. To indicate a private method",
-      "C. To specify that a variable should not be serialized",
-      "D. To create a new thread"
-    ],
-    "answer": "C. To specify that a variable should not be serialized"
+    "answer": "The 'transient' keyword is used to indicate that a variable should not be serialized when an object is converted into a byte stream (e.g., during object serialization)."
   },
   {
-    "question": "In Java, what is the use of the 'final' keyword when applied to a class?",
-    "options": [
-      "A. To indicate that the class cannot be extended",
-      "B. To specify that the class is abstract",
-      "C. To make the class thread-safe",
-      "D. To mark the class as deprecated"
-    ],
-    "answer": "A. To indicate that the class cannot be extended"
+    "question": "Explain the concept of method overriding in Java and its use cases.",
+    "answer": "Method overriding is a feature that allows a subclass to provide a specific implementation of a method defined in its superclass. It is used to create a specialized behavior for a method in the subclass, providing polymorphism and dynamic method dispatch."
   },
   {
-    "question": "Which data structure in Java is used to implement a Last-In-First-Out (LIFO) behavior?",
-    "options": [
-      "A. Queue",
-      "B. Stack",
-      "C. List",
-      "D. Set"
-    ],
-    "answer": "B. Stack"
+    "question": "What is the purpose of the 'volatile' keyword in Java?",
+    "answer": "The 'volatile' keyword is used to declare a variable as volatile, which ensures that any read or write operation on the variable is performed directly on the main memory. It is used in multithreading to prevent visibility issues."
   },
   {
-    "question": "What is the primary use of the 'volatile' keyword in Java?",
-    "options": [
-      "A. To indicate that a variable cannot be modified",
-      "B. To specify that a variable should be eagerly initialized",
-      "C. To indicate that a variable may be accessed by multiple threads",
-      "D. To create a copy of an object"
-    ],
-    "answer": "C. To indicate that a variable may be accessed by multiple threads"
+    "question": "What is the Java Collections Framework, and what are its main components?",
+    "answer": "The Java Collections Framework is a set of classes and interfaces used for storing, manipulating, and processing collections of objects. Its main components include interfaces like List, Set, and Map, along with concrete classes like ArrayList, HashSet, and HashMap."
   },
   {
-    "question": "In Java, what is a checked exception?",
-    "options": [
-      "A. An exception that is checked by a compiler at compile-time",
-      "B. An exception that is checked by a linter tool",
-      "C. An exception that is thrown when a program crashes",
-      "D. An exception that is handled using a try-catch block"
-    ],
-    "answer": "A. An exception that is checked by a compiler at compile-time"
+    "question": "Explain the concept of inner classes in Java and their types.",
+    "answer": "Inner classes are classes defined inside another class. They are used for encapsulation and code organization. Types of inner classes include static inner classes, non-static inner classes (also known as inner classes), and anonymous inner classes."
   },
   {
-    "question": "What is the purpose of the 'super' keyword in Java?",
-    "options": [
-      "A. To call the constructor of the superclass",
-      "B. To invoke a static method",
-      "C. To access a private member of the superclass",
-      "D. To create a new object of the superclass"
-    ],
-    "answer": "A. To call the constructor of the superclass"
+    "question": "What is the purpose of the 'break' and 'continue' statements in Java?",
+    "answer": "'Break' is used to exit a loop prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of a loop."
   },
   {
-    "question": "What does the 'this' keyword refer to in Java?",
-    "options": [
-      "A. The current object instance",
-      "B. The next object in the chain",
-      "C. The base class instance",
-      "D. The global object"
-    ],
-    "answer": "A. The current object instance"
-  },
-  {
-    "question": "Which design pattern is used for implementing a Singleton class in Java?",
-    "options": [
-      "A. Abstract Factory Pattern",
-      "B. Singleton Pattern",
-      "C. Factory Method Pattern",
-      "D. Builder Pattern"
-    ],
-    "answer": "B. Singleton Pattern"
-  },
-  {
-    "question": "What is the purpose of the 'equals' method in Java?",
-    "options": [
-      "A. To compare two objects for reference equality",
-      "B. To compare two objects for value equality",
-      "C. To check if an object is null",
-      "D. To create a new object"
-    ],
-    "answer": "B. To compare two objects for value equality"
-  },
-  {
-    "question": "What is the default value of a boolean variable in Java?",
-    "options": [
-      "A. True",
-      "B. False",
-      "C. Null",
-      "D. Undefined"
-    ],
-    "answer": "B. False"
+    "question": "Explain the 'compareTo' method in Java and its use in sorting objects.",
+    "answer": "'CompareTo' is a method defined in the Comparable interface, used to compare objects and determine their order. It is often used in sorting algorithms like Collections.sort() to sort objects based on their natural order."
   }
 ]
