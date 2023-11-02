@@ -1,1 +1,183 @@
+[
+  {
+    "question": "What is the Android application architecture composed of?",
+    "options": [
+      "A. Model-View-Controller (MVC)",
+      "B. Model-View-Presenter (MVP)",
+      "C. Model-View-ViewModel (MVVM)",
+      "D. None of the above"
+    ],
+    "answer": "C. Model-View-ViewModel (MVVM)"
+  },
+  {
+    "question": "Explain the Activity lifecycle in Android.",
+    "options": [
+      "A. onCreate, onStart, onResume, onPause, onStop, onDestroy",
+      "B. create, start, resume, pause, stop, destroy",
+      "C. initialize, launch, run, pause, stop, exit",
+      "D. None of the above"
+    ],
+    "answer": "A. onCreate, onStart, onResume, onPause, onStop, onDestroy"
+  },
+  {
+    "question": "What is the AndroidManifest.xml file used for?",
+    "options": [
+      "A. Defining the layout of an activity",
+      "B. Declaring the permissions required by the app",
+      "C. Defining the UI components of an app",
+      "D. Specifying the app's color scheme"
+    ],
+    "answer": "B. Declaring the permissions required by the app"
+  },
+  {
+    "question": "Explain the difference between Serializable and Parcelable in Android.",
+    "options": [
+      "A. Serializable is faster and recommended for all cases.",
+      "B. Parcelable is slower but provides better performance for complex objects.",
+      "C. Serializable uses reflection and is less efficient for Android.",
+      "D. Parcelable is used for non-Android platforms."
+    ],
+    "answer": "C. Serializable uses reflection and is less efficient for Android."
+  },
+  {
+    "question": "What is a ContentProvider in Android?",
+    "options": [
+      "A. It provides content to a web browser.",
+      "B. It is used to share data between different Android applications.",
+      "C. It displays content on the device screen.",
+      "D. It controls the device's hardware settings."
+    ],
+    "answer": "B. It is used to share data between different Android applications."
+  },
+  {
+    "question": "Explain the difference between a Service and an IntentService in Android.",
+    "options": [
+      "A. A Service is used for handling background tasks, while an IntentService is used for foreground tasks.",
+      "B. A Service runs on the main thread, while an IntentService runs on a background thread.",
+      "C. A Service is used for handling short-lived tasks, while an IntentService is used for long-running tasks.",
+      "D. A Service and an IntentService are essentially the same."
+    ],
+    "answer": "A. A Service is used for handling background tasks, while an IntentService is used for foreground tasks."
+  },
+  {
+    "question": "What is the purpose of the Android Gradle Plugin (AGP)?",
+    "options": [
+      "A. To write Java code in Android projects.",
+      "B. To build, test, and package Android apps.",
+      "C. To design user interfaces for Android apps.",
+      "D. To debug Android applications."
+    ],
+    "answer": "B. To build, test, and package Android apps."
+  },
+  {
+    "question": "Explain the concept of Fragments in Android.",
+    "options": [
+      "A. Fragments are used to play audio and video files.",
+      "B. Fragments are components that can be reused in different activities.",
+      "C. Fragments are lightweight activities that run in the background.",
+      "D. Fragments are only used for handling UI events."
+    ],
+    "answer": "B. Fragments are components that can be reused in different activities."
+  },
+  {
+    "question": "What is the purpose of the 'adb' tool in Android development?",
+    "options": [
+      "A. To create Android apps.",
+      "B. To install apps on physical devices.",
+      "C. To run Android Virtual Devices (AVDs).",
+      "D. To design user interfaces for Android apps."
+    ],
+    "answer": "B. To install apps on physical devices."
+  },
+  {
+    "question": "What is ProGuard in Android and what is its purpose?",
+    "options": [
+      "A. ProGuard is a tool for debugging Android apps.",
+      "B. ProGuard is a code obfuscation tool that helps reduce the size of APK files and make reverse engineering more difficult.",
+      "C. ProGuard is used to create user interfaces in Android apps.",
+      "D. ProGuard is a popular Android emulator."
+    ],
+    "answer": "B. ProGuard is a code obfuscation tool that helps reduce the size of APK files and make reverse engineering more difficult."
+  },
+  {
+    "question": "What is the Android App Bundle (AAB) format, and how does it differ from APK?",
+    "options": [
+      "A. AAB is a type of audio file used in Android apps.",
+      "B. AAB is an updated version of APK that includes additional resources and device-specific configurations.",
+      "C. AAB is an acronym for 'Android Application Binaries,' and it's used to store compiled Java code.",
+      "D. AAB and APK are interchangeable formats with no significant differences."
+    ],
+    "answer": "B. AAB is an updated version of APK that includes additional resources and device-specific configurations."
+  },
+  {
+    "question": "What is the 'Context' in Android, and why is it important?",
+    "options": [
+      "A. Context refers to the physical location of a device and is used for location-based services.",
+      "B. Context is a Java class used to define the layout of an Android app.",
+      "C. Context is an abstract class that provides access to application-specific resources and information about the application's environment.",
+      "D. Context is an Android library used for database operations."
+    ],
+    "answer": "C. Context is an abstract class that provides access to application-specific resources and information about the application's environment."
+  },
+  {
+    "question": "What is the role of the 'RecyclerView' in Android, and how does it differ from the 'ListView'?",
+    "options": [
+      "A. RecyclerView is used to display a list of items with a linear layout, while ListView is used for grid layouts.",
+      "B. RecyclerView is used for grid layouts, while ListView is used for linear layouts.",
+      "C. RecyclerView is more efficient than ListView for displaying large datasets and provides more flexibility in designing custom layouts.",
+      "D. RecyclerView and ListView serve the same purpose and have no significant differences."
+    ],
+    "answer": "C. RecyclerView is more efficient than ListView for displaying large datasets and provides more flexibility in designing custom layouts."
+  },
+  {
+    "question": "Explain the Android Notification system and its components.",
+    "options": [
+      "A. Android Notifications are used for displaying pop-up advertisements in apps.",
+      "B. The Android Notification system is a way to send SMS messages to users.",
+      "C. Android Notifications are system alerts that provide information to the user through the notification drawer. They consist of a title, content, and optional actions.",
+      "D. Android Notifications are used for making in-app purchases."
+    ],
+    "answer": "C. Android Notifications are system alerts that provide information to the user through the notification drawer. They consist of a title, content, and optional actions."
+  },
+  {
+    "question": "What is the purpose of the Android XML layout file, and how is it used?",
+    "options": [
+      "A. Android XML layout files are used for creating database schemas in Android apps.",
+      "B. Android XML layout files define the structure and appearance of the user interface (UI) for an Android app. They are used to create and design the app's layout.",
+      "C. Android XML layout files are used for defining animations in Android apps.",
+      "D. Android XML layout files are used for storing user preferences."
+    ],
+    "answer": "B. Android XML layout files define the structure and appearance of the user interface (UI) for an Android app. They are used to create and design the app's layout."
+  },
+  {
+    "question": "Explain the concept of 'Intent' in Android and its different types.",
+    "options": [
+      "A. Intent is used for starting a new Android application.",
+      "B. Intent is used for sending data between Android activities and components. It can be explicit or implicit.",
+      "C. Intent is a way to send SMS messages in Android apps.",
+      "D. Intent is used for controlling the device's hardware settings."
+    ],
+    "answer": "B. Intent is used for sending data between Android activities and components. It can be explicit or implicit."
+  },
+  {
+    "question": "What is the Android Application Sandbox, and why is it important for security?",
+    "options": [
+      "A. The Android Application Sandbox is a physical location on the device where apps are stored.",
+      "B. The Android Application Sandbox is a development tool used for testing apps.",
+      "C. The Android Application Sandbox is an isolated environment where each app runs with limited access to the system, ensuring that apps do not interfere with each other and enhancing security.",
+      "D. The Android Application Sandbox is used for storing app data."
+    ],
+    "answer": "C. The Android Application Sandbox is an isolated environment where each app runs with limited access to the system, ensuring that apps do not interfere with each other and enhancing security."
+  },
+  {
+    "question": "What is the purpose of the 'ViewModel' in Android's MVVM architecture, and how does it differ from the 'LiveData' class?",
+    "options": [
+      "A. ViewModel is used for storing user preferences in Android apps, while LiveData is used for managing user authentication.",
+      "B. ViewModel is responsible for handling UI-related data and state, surviving configuration changes, and providing a clean API for UI components. LiveData is an observable data holder that allows data to be observed by UI components.",
+      "C. ViewModel and LiveData serve the same purpose and have no significant differences.",
+      "D. ViewModel is used for creating animations, while LiveData is used for database operations."
+    ],
+    "answer": "B. ViewModel is responsible for handling UI-related data and state, surviving configuration changes, and providing a clean API for UI components. LiveData is an observable data holder that allows data to be observed by UI components."
+  }
+]
 
