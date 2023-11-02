@@ -1,42 +1,102 @@
 [
-    {
-      "question": "What is the main purpose of the 'public' keyword in Java?",
-      "options": [
-        "A. To make a method accessible from any class",
-        "B. To define a variable as a constant",
-        "C. To specify the entry point of a Java program",
-        "D. To indicate a private method"
-      ],
-      "answer": "A. To make a method accessible from any class"
-    },
-    {
-      "question": "Which data type is used to store a single character in Java?",
-      "options": [
-        "A. int",
-        "B. char",
-        "C. string",
-        "D. boolean"
-      ],
-      "answer": "B. char"
-    },
-    {
-      "question": "What is the purpose of the 'static' keyword in Java?",
-      "options": [
-        "A. To create an instance of a class",
-        "B. To make a variable constant",
-        "C. To declare a method as a class method",
-        "D. To prevent inheritance"
-      ],
-      "answer": "C. To declare a method as a class method"
-    },
-    {
-      "question": "Which Java keyword is used to create an object of a class?",
-      "options": [
-        "A. new",
-        "B. class",
-        "C. object",
-        "D. instance"
-      ],
-      "answer": "A. new"
-    }
+  {
+    "question": "What is the purpose of the 'transient' keyword in Java?",
+    "options": [
+      "A. To make a variable constant",
+      "B. To indicate a private method",
+      "C. To specify that a variable should not be serialized",
+      "D. To create a new thread"
+    ],
+    "answer": "C. To specify that a variable should not be serialized"
+  },
+  {
+    "question": "In Java, what is the use of the 'final' keyword when applied to a class?",
+    "options": [
+      "A. To indicate that the class cannot be extended",
+      "B. To specify that the class is abstract",
+      "C. To make the class thread-safe",
+      "D. To mark the class as deprecated"
+    ],
+    "answer": "A. To indicate that the class cannot be extended"
+  },
+  {
+    "question": "Which data structure in Java is used to implement a Last-In-First-Out (LIFO) behavior?",
+    "options": [
+      "A. Queue",
+      "B. Stack",
+      "C. List",
+      "D. Set"
+    ],
+    "answer": "B. Stack"
+  },
+  {
+    "question": "What is the primary use of the 'volatile' keyword in Java?",
+    "options": [
+      "A. To indicate that a variable cannot be modified",
+      "B. To specify that a variable should be eagerly initialized",
+      "C. To indicate that a variable may be accessed by multiple threads",
+      "D. To create a copy of an object"
+    ],
+    "answer": "C. To indicate that a variable may be accessed by multiple threads"
+  },
+  {
+    "question": "In Java, what is a checked exception?",
+    "options": [
+      "A. An exception that is checked by a compiler at compile-time",
+      "B. An exception that is checked by a linter tool",
+      "C. An exception that is thrown when a program crashes",
+      "D. An exception that is handled using a try-catch block"
+    ],
+    "answer": "A. An exception that is checked by a compiler at compile-time"
+  },
+  {
+    "question": "What is the purpose of the 'super' keyword in Java?",
+    "options": [
+      "A. To call the constructor of the superclass",
+      "B. To invoke a static method",
+      "C. To access a private member of the superclass",
+      "D. To create a new object of the superclass"
+    ],
+    "answer": "A. To call the constructor of the superclass"
+  },
+  {
+    "question": "What does the 'this' keyword refer to in Java?",
+    "options": [
+      "A. The current object instance",
+      "B. The next object in the chain",
+      "C. The base class instance",
+      "D. The global object"
+    ],
+    "answer": "A. The current object instance"
+  },
+  {
+    "question": "Which design pattern is used for implementing a Singleton class in Java?",
+    "options": [
+      "A. Abstract Factory Pattern",
+      "B. Singleton Pattern",
+      "C. Factory Method Pattern",
+      "D. Builder Pattern"
+    ],
+    "answer": "B. Singleton Pattern"
+  },
+  {
+    "question": "What is the purpose of the 'equals' method in Java?",
+    "options": [
+      "A. To compare two objects for reference equality",
+      "B. To compare two objects for value equality",
+      "C. To check if an object is null",
+      "D. To create a new object"
+    ],
+    "answer": "B. To compare two objects for value equality"
+  },
+  {
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": [
+      "A. True",
+      "B. False",
+      "C. Null",
+      "D. Undefined"
+    ],
+    "answer": "B. False"
+  }
 ]
