@@ -1,1 +1,271 @@
-
+[
+    {
+        "questionNumber": "01",
+        "question": "What is Python?",
+        "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used for web development, data analysis, artificial intelligence, and more."
+    },
+    {
+        "questionNumber": "02",
+        "question": "What are the key features of Python?",
+        "answer": "Key features of Python include easy-to-read syntax, dynamic typing, automatic memory management, extensive standard libraries, and support for various programming paradigms."
+    },
+    {
+        "questionNumber": "03",
+        "question": "How do you comment in Python?",
+        "answer": "In Python, you can use the '#' symbol to add single-line comments. For multi-line comments, you can use triple-quotes (''' or \")."
+    },
+    {
+        "questionNumber": "04",
+        "question": "What is PEP 8?",
+        "answer": "PEP 8 (Python Enhancement Proposal 8) is the style guide for Python code. It provides recommendations on how to format code for better readability and consistency."
+    },
+    {
+        "questionNumber": "05",
+        "question": "What is an interpreter and a compiler in Python?",
+        "answer": "Python uses an interpreter, which executes code line by line. A compiler, on the other hand, translates the entire code into machine code before execution."
+    },
+    {
+        "questionNumber": "06",
+        "question": "What are Python data types?",
+        "answer": "Python supports various data types, including int, float, str, bool, list, tuple, set, dict, etc."
+    },
+    {
+        "questionNumber": "07",
+        "question": "Explain Python's dynamic typing.",
+        "answer": "Python is dynamically typed, meaning you don't need to declare variable types. The type is determined at runtime."
+    },
+    {
+        "questionNumber": "08",
+        "question": "How do you create a function in Python?",
+        "answer": "You can create a function in Python using the 'def' keyword, followed by the function name and parameters."
+    },
+    {
+        "questionNumber": "09",
+        "question": "What is a lambda function?",
+        "answer": "A lambda function is an anonymous function created using the 'lambda' keyword. It can have any number of arguments but can only have one expression."
+    },
+    {
+        "questionNumber": "10",
+        "question": "What is a Python module?",
+        "answer": "A module is a file containing Python code. It can define functions, classes, and variables and be imported into other Python scripts."
+    },
+    {
+        "questionNumber": "11",
+        "question": "What is a Python package?",
+        "answer": "A package is a collection of Python modules organized in directories. It allows for better organization and reuse of code."
+    },
+    {
+        "questionNumber": "12",
+        "question": "How do you open and close a file in Python?",
+        "answer": "You can use the 'open()' function to open a file and 'close()' to close it. It's recommended to use 'with' for automatic file closure."
+    },
+    {
+        "questionNumber": "13",
+        "question": "What are Python exceptions?",
+        "answer": "Exceptions are runtime errors in Python. You can handle them using 'try' and 'except' blocks."
+    },
+    {
+        "questionNumber": "14",
+        "question": "Explain the use of 'if-elif-else' in Python.",
+        "answer": "These are conditional statements. 'if' is used for the main condition, 'elif' for additional conditions, and 'else' for the default case."
+    },
+    {
+        "questionNumber": "15",
+        "question": "What is the purpose of 'for' loops in Python?",
+        "answer": "'for' loops are used to iterate over a sequence (e.g., a list, tuple, or string) and execute a block of code for each item."
+    },
+    {
+        "questionNumber": "16",
+        "question": "How do you define a class in Python?",
+        "answer": "You define a class using the 'class' keyword, followed by the class name and a colon. The class contains attributes and methods."
+    },
+    {
+        "questionNumber": "17",
+        "question": "What is inheritance in Python?",
+        "answer": "Inheritance allows a class to inherit properties and methods from another class. It promotes code reusability."
+    },
+    {
+        "questionNumber": "18",
+        "question": "Explain the purpose of 'self' in Python classes.",
+        "answer": "'self' is a reference to the current instance of the class. It's used to access instance variables and methods within the class."
+    },
+    {
+        "questionNumber": "19",
+        "question": "What is a decorator in Python?",
+        "answer": "A decorator is a function that modifies the behavior of another function. It's often used for extending or altering the behavior of functions or methods."
+    },
+    {
+        "questionNumber": "20",
+        "question": "What is a generator in Python?",
+        "answer": "A generator is a function that can yield values one at a time, rather than returning them all at once. It's memory-efficient for large datasets."
+    },
+    {
+        "questionNumber": "21",
+        "question": "What is a list comprehension in Python?",
+        "answer": "List comprehension is a concise way to create lists in Python by applying an expression to each item in an iterable."
+    },
+    {
+        "questionNumber": "22",
+        "question": "Explain the 'pass' statement in Python.",
+        "answer": "The 'pass' statement is a no-op statement used as a placeholder when no action is required."
+    },
+    {
+        "questionNumber": "23",
+        "question": "What is the Global Interpreter Lock (GIL) in Python?",
+        "answer": "The GIL is a mutex that allows only one thread to execute in CPython. It can limit multi-core processor performance in some cases."
+    },
+    {
+        "questionNumber": "24",
+        "question": "What is a Python virtual environment?",
+        "answer": "A virtual environment is an isolated Python environment that allows you to install packages independently for different projects."
+    },
+    {
+        "questionNumber": "25",
+        "question": "How do you install external packages in Python?",
+        "answer": "You can use 'pip' to install external packages. For example, 'pip install package_name'."
+    },
+    {
+        "questionNumber": "26",
+        "question": "What is the purpose of '__init__.py' in a Python package?",
+        "answer": "'__init__.py' is a special module that's executed when a package is imported. It can be empty or contain initialization code."
+    },
+    {
+        "questionNumber": "27",
+        "question": "What is a Python set?",
+        "answer": "A set is an unordered collection of unique elements. It's used for membership testing and eliminating duplicates."
+    },
+    {
+        "questionNumber": "28",
+        "question": "What is a dictionary in Python?",
+        "answer": "A dictionary is an unordered collection of key-value pairs. Keys are unique, and values can be of any data type."
+    },
+    {
+        "questionNumber": "29",
+        "question": "How do you merge two dictionaries in Python?",
+        "answer": "You can use the 'update()' method or the dictionary unpacking operator ('**') to merge two dictionaries."
+    },
+    {
+        "questionNumber": "30",
+        "question": "What is a Python list and how do you access its elements?",
+        "answer": "A list is an ordered collection of items. You can access list elements using square brackets and index numbers."
+    },
+    {
+        "questionNumber": "31",
+        "question": "Explain the purpose of the 'append()' method for lists.",
+        "answer": "The 'append()' method adds an element to the end of a list."
+    },
+    {
+        "questionNumber": "32",
+        "question": "What is the difference between a list and a tuple in Python?",
+        "answer": "Lists are mutable, meaning their elements can be changed. Tuples are immutable and cannot be altered after creation."
+    },
+    {
+        "questionNumber": "33",
+        "question": "What is a Python slice?",
+        "answer": "A slice is a subsequence of a sequence (e.g., a list or string) defined by specifying a range of indices."
+    },
+    {
+        "questionNumber": "34",
+        "question": "Explain the purpose of a Python 'while' loop.",
+        "answer": "A 'while' loop is used to repeatedly execute a block of code as long as a condition is true."
+    },
+    {
+        "questionNumber": "35",
+        "question": "What is the purpose of 'break' and 'continue' statements in loops?",
+        "answer": "'break' is used to exit a loop prematurely, and 'continue' is used to skip the current iteration and move to the next one."
+    },
+    {
+        "questionNumber": "36",
+        "question": "What is the 'pass' statement in loops?",
+        "answer": "The 'pass' statement does nothing and is often used as a placeholder in loops."
+    },
+    {
+        "questionNumber": "37",
+        "question": "Explain the 'else' clause in a 'for' loop in Python.",
+        "answer": "The 'else' clause is executed when the 'for' loop completes its iterations without encountering a 'break' statement."
+    },
+    {
+        "questionNumber": "38",
+        "question": "What is a Python dictionary comprehension?",
+        "answer": "Dictionary comprehension is a concise way to create dictionaries by specifying key-value pairs within a loop."
+    },
+    {
+        "questionNumber": "39",
+        "question": "What is a 'set' comprehension in Python?",
+        "answer": "A 'set' comprehension is a concise way to create sets by specifying elements within a loop."
+    },
+    {
+        "questionNumber": "40",
+        "question": "Explain the 'assert' statement in Python.",
+        "answer": "The 'assert' statement is used for debugging. It checks if a given condition is 'True' and raises an error if it's 'False'."
+    },
+    {
+        "questionNumber": "41",
+        "question": "What is a Python generator comprehension?",
+        "answer": "A generator comprehension is a concise way to create generators by specifying values within a loop."
+    },
+    {
+        "questionNumber": "42",
+        "question": "What is the purpose of the 'try' and 'except' blocks in Python?",
+        "answer": "The 'try' block is used to enclose code that might raise an exception. The 'except' block handles the exception if it occurs."
+    },
+    {
+        "questionNumber": "43",
+        "question": "What is a Python context manager?",
+        "answer": "A context manager is an object that defines the methods '__enter__' and '__exit__'. It's used for resource management and ensures proper cleanup."
+    },
+    {
+        "questionNumber": "44",
+        "question": "Explain the purpose of 'with' statements in Python.",
+        "answer": "A 'with' statement is used to simplify the management of resources by creating a context for resource-related operations."
+    },
+    {
+        "questionNumber": "45",
+        "question": "What is the purpose of the 'del' statement in Python?",
+        "answer": "The 'del' statement is used to remove a variable, element, or slice from memory."
+    },
+    {
+        "questionNumber": "46",
+        "question": "What is the purpose of the 'zip()' function in Python?",
+        "answer": "The 'zip()' function combines multiple iterables into tuples, effectively grouping corresponding elements from each iterable."
+    },
+    {
+        "questionNumber": "47",
+        "question": "What are Python modules used for?",
+        "answer": "Modules are used to organize and package Python code. They can be imported to access functions, classes, and variables."
+    },
+    {
+        "questionNumber": "48",
+        "question": "What is a Python function docstring?",
+        "answer": "A docstring is a string that provides documentation for a function, module, or class. It is often placed in triple-quotes just below the definition."
+    },
+    {
+        "questionNumber": "49",
+        "question": "Explain the purpose of the 'map()' function in Python.",
+        "answer": "The 'map()' function applies a given function to each item of an iterable and returns a map object."
+    },
+    {
+        "questionNumber": "50",
+        "question": "What is a Python list comprehension?",
+        "answer": "A list comprehension is a concise way to create lists by specifying elements within a loop."
+    },
+    {
+        "questionNumber": "51",
+        "question": "What is the purpose of the 'filter()' function in Python?",
+        "answer": "The 'filter()' function filters elements of an iterable based on a given function's condition and returns a filter object."
+    },
+    {
+        "questionNumber": "52",
+        "question": "Explain the concept of Python decorators.",
+        "answer": "Decorators are functions that modify the behavior of other functions or methods. They are often used for code augmentation or logging."
+    },
+    {
+        "questionNumber": "53",
+        "question": "What is Python's 're' module used for?",
+        "answer": "The 're' module is used for regular expressions, allowing you to work with patterns in strings, such as matching, searching, and replacing."
+    },
+    {
+        "questionNumber": "54",
+        "question": "What is a Python generator?",
+        "answer": "A generator is a function that can yield values one at a time, allowing for efficient memory usage when dealing with large data sets."
+    },]
