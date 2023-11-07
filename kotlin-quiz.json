@@ -169,5 +169,56 @@
     ],
     "answer": "B. The 'apply' function is used to apply a lambda expression to an object and returns the object itself. It is often used for configuring objects during their creation."
   }
+,
+  {
+    "question": "What is 'Smart Cast' in Kotlin?",
+    "options": [
+      "A. Smart Cast is a type of cast used in Kotlin to perform explicit type conversions.",
+      "B. Smart Cast is a feature in Kotlin that automatically casts an object when certain conditions are met, eliminating the need for explicit casting in most cases.",
+      "C. Smart Cast is a design pattern used in Android development.",
+      "D. Smart Cast is used for creating animations in Kotlin."
+    ],
+    "answer": "B. Smart Cast is a feature in Kotlin that automatically casts an object when certain conditions are met, eliminating the need for explicit casting in most cases."
+  },
+  {
+    "question": "What is 'lateinit' in Kotlin, and when is it used?",
+    "options": [
+      "A. 'lateinit' is used for creating custom exceptions in Kotlin.",
+      "B. 'lateinit' is a keyword used for defining abstract classes in Kotlin.",
+      "C. 'lateinit' is used to declare a non-null property that is initialized later in the code and can help prevent null pointer exceptions.",
+      "D. 'lateinit' is used for creating user interfaces in Android."
+    ],
+    "answer": "C. 'lateinit' is used to declare a non-null property that is initialized later in the code and can help prevent null pointer exceptions."
+  },
+  {
+    "question": "What is 'extension function' in Kotlin, and how is it used?",
+    "options": [
+      "A. Extension function is a way to create new classes in Kotlin.",
+      "B. Extension function is a mechanism in Kotlin to add new functions to an existing class without modifying its source code.",
+      "C. Extension function is used for defining custom operators in Kotlin.",
+      "D. Extension function is used for handling database operations in Android."
+    ],
+    "answer": "B. Extension function is a mechanism in Kotlin to add new functions to an existing class without modifying its source code."
+  },
+  {
+    "question": "Explain 'in' and 'out' variance modifiers in Kotlin and their use cases.",
+    "options": [
+      "A. 'in' and 'out' variance modifiers are used for defining abstract classes in Kotlin.",
+      "B. 'in' and 'out' variance modifiers are used to control the inheritance hierarchy in Kotlin.",
+      "C. 'in' and 'out' variance modifiers are used for specifying the direction in which generic types can flow in and out of a class or function.",
+      "D. 'in' and 'out' variance modifiers are used for creating user interfaces in Android."
+    ],
+    "answer": "C. 'in' and 'out' variance modifiers are used for specifying the direction in which generic types can flow in and out of a class or function."
+  },
+  {
+    "question": "What is 'inline function' in Kotlin, and when is it used?",
+    "options": [
+      "A. Inline function is used for creating singleton objects in Kotlin.",
+      "B. Inline function is a type of data structure in Kotlin.",
+      "C. Inline function is a keyword used for defining custom operators in Kotlin.",
+      "D. Inline function is a function modifier in Kotlin that advises the compiler to insert the code of the function directly into the call site, reducing the overhead of function calls."
+    ],
+    "answer": "D. Inline function is a function modifier in Kotlin that advises the compiler to insert the code of the function directly into the call site, reducing the overhead of function calls."
+  }
 ]
 
