@@ -1,0 +1,192 @@
+[
+  {
+    "question": "What is Flutter?",
+    "options": [
+      "A. A programming language",
+      "B. A cross-platform mobile app development framework",
+      "C. A design tool for creating web pages",
+      "D. An operating system"
+    ],
+    "answer": "B. A cross-platform mobile app development framework"
+  },
+  {
+    "question": "Which programming language is primarily used for Flutter app development?",
+    "options": [
+      "A. Java",
+      "B. Swift",
+      "C. Dart",
+      "D. Python"
+    ],
+    "answer": "C. Dart"
+  },
+  {
+    "question": "What is the purpose of the 'pubspec.yaml' file in a Flutter project?",
+    "options": [
+      "A. To define the project's icon",
+      "B. To specify the project's name and description",
+      "C. To write the app's main code",
+      "D. To declare global variables"
+    ],
+    "answer": "B. To specify the project's name and description"
+  },
+  {
+    "question": "What is a 'Widget' in Flutter?",
+    "options": [
+      "A. A physical object in the real world",
+      "B. A data storage mechanism",
+      "C. A building block of the user interface",
+      "D. A design tool"
+    ],
+    "answer": "C. A building block of the user interface"
+  },
+  {
+    "question": "Which widget is used for creating a scrollable list of widgets in Flutter?",
+    "options": [
+      "A. Text",
+      "B. Container",
+      "C. ListView",
+      "D. Column"
+    ],
+    "answer": "C. ListView"
+  },
+  {
+    "question": "What is the purpose of 'setState' in Flutter?",
+    "options": [
+      "A. To change the project's name and description",
+      "B. To update the user interface in response to changes in the data",
+      "C. To define the project's icon",
+      "D. To declare variables"
+    ],
+    "answer": "B. To update the user interface in response to changes in the data"
+  },
+  {
+    "question": "What is a 'hot reload' in Flutter?",
+    "options": [
+      "A. A feature for turning off the device",
+      "B. A way to restart the app",
+      "C. A process of reloading the entire app",
+      "D. A feature for adjusting screen brightness"
+    ],
+    "answer": "B. A way to restart the app"
+  },
+  {
+    "question": "Which command is used to create a new Flutter project in the command line?",
+    "options": [
+      "A. flutter start my_project",
+      "B. flutter new my_project",
+      "C. flutter create my_project",
+      "D. new_flutter_project"
+    ],
+    "answer": "C. flutter create my_project"
+  },
+  {
+    "question": "What is the purpose of the 'main.dart' file in a Flutter project?",
+    "options": [
+      "A. To declare global variables",
+      "B. To specify the project's name and description",
+      "C. To define the app's main code and entry point",
+      "D. To create the app's user interface"
+    ],
+    "answer": "C. To define the app's main code and entry point"
+  },
+  {
+    "question": "Which package management system is commonly used for Flutter?",
+    "options": [
+      "A. NPM",
+      "B. Yarn",
+      "C. Pub",
+      "D. Gradle"
+    ],
+    "answer": "C. Pub"
+  },
+  {
+    "question": "What is 'Flutter Doctor' used for?",
+    "options": [
+      "A. To diagnose and fix issues in a Flutter project",
+      "B. To create new Flutter projects",
+      "C. To design user interfaces",
+      "D. To run the app on a device"
+    ],
+    "answer": "A. To diagnose and fix issues in a Flutter project"
+  },
+  {
+    "question": "What is a 'MaterialApp' in Flutter?",
+    "options": [
+      "A. A physical object",
+      "B. A type of variable",
+      "C. A widget that defines the basic structure of a Material Design app",
+      "D. A data storage mechanism"
+    ],
+    "answer": "C. A widget that defines the basic structure of a Material Design app"
+  },
+  {
+    "question": "What is the purpose of the 'build' method in a Flutter widget?",
+    "options": [
+      "A. To create a new widget",
+      "B. To declare global variables",
+      "C. To define the user interface of the widget",
+      "D. To restart the app"
+    ],
+    "answer": "C. To define the user interface of the widget"
+  },
+  {
+    "question": "What is a 'package' in Flutter?",
+    "options": [
+      "A. A type of variable",
+      "B. A way to store user data",
+      "C. A collection of files and code that provide specific functionality",
+      "D. A physical object in the real world"
+    ],
+    "answer": "C. A collection of files and code that provide specific functionality"
+  },
+  {
+    "question": "What is 'Flutter Inspector' used for?",
+    "options": [
+      "A. To inspect and modify the layout and properties of widgets in a running Flutter app",
+      "B. To create new Flutter projects",
+      "C. To create databases",
+      "D. To print text on the screen"
+    ],
+    "answer": "A. To inspect and modify the layout and properties of widgets in a running Flutter app"
+  },
+  {
+    "question": "What is a 'stateful widget' in Flutter?",
+    "options": [
+      "A. A widget that has no state",
+      "B. A widget that stores data and can change over time",
+      "C. A widget used for navigation",
+      "D. A widget that displays static content"
+    ],
+    "answer": "B. A widget that stores data and can change over time"
+  },
+  {
+    "question": "What is 'Flutter LayoutBuilder' used for?",
+    "options": [
+      "A. To define global variables",
+      "B. To build user interfaces",
+      "C. To create animations",
+      "D. To build a widget based on its constraints"
+    ],
+    "answer": "D. To build a widget based on its constraints"
+  },
+  {
+    "question": "What is 'async' and 'await' used for in Flutter?",
+    "options": [
+      "A. To define global variables",
+      "B. To create user-defined functions",
+      "C. To handle asynchronous operations and wait for their results",
+      "D. To create databases"
+    ],
+    "answer": "C. To handle asynchronous operations and wait for their results"
+  },
+  {
+    "question": "What is 'Flutter Navigator' used for?",
+    "options": [
+      "A. To navigate through the file system",
+      "B. To manage navigation and screen transitions in a Flutter app",
+      "C. To create animations",
+      "D. To display images"
+    ],
+    "answer": "B. To manage navigation and screen transitions in a Flutter app"
+  }
+]
