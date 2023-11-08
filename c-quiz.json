@@ -1,102 +1,202 @@
 [
   {
-    "question": "What is the difference between 'int' and 'float' data types in C?",
+    "question": "What is the purpose of the 'stdio.h' header file in C?",
     "options": [
-      "A. 'int' is used for integer values, while 'float' is used for floating-point numbers.",
-      "B. 'int' is used for floating-point numbers, while 'float' is used for integer values.",
-      "C. 'int' and 'float' are interchangeable data types in C.",
-      "D. 'int' is used for character data, while 'float' is used for string data."
+      "A. To define mathematical functions",
+      "B. To declare standard input and output functions",
+      "C. To manage memory allocation",
+      "D. To create user interfaces"
     ],
-    "answer": "A. 'int' is used for integer values, while 'float' is used for floating-point numbers."
+    "answer": "B. To declare standard input and output functions"
   },
   {
-    "question": "Explain the 'sizeof' operator in C. What does it return?",
+    "question": "In C, how is a single-line comment indicated?",
     "options": [
-      "A. 'sizeof' returns the size of an expression or a variable in bytes.",
-      "B. 'sizeof' is used to calculate the number of elements in an array.",
-      "C. 'sizeof' returns the memory address of a variable.",
-      "D. 'sizeof' returns the maximum value that a data type can hold."
+      "A. // This is a comment",
+      "B. /* This is a comment */",
+      "C. # This is a comment #",
+      "D. -- This is a comment"
     ],
-    "answer": "A. 'sizeof' returns the size of an expression or a variable in bytes."
+    "answer": "A. // This is a comment"
   },
   {
-    "question": "What is a pointer in C, and how is it different from a regular variable?",
+    "question": "What is the main function's return type in C?",
     "options": [
-      "A. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it contains the actual data.",
-      "B. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it doesn't contain the actual data; it points to the data.",
-      "C. A pointer is a constant value that cannot be changed, while a regular variable can be modified.",
-      "D. A pointer is used for arithmetic operations, while a regular variable is not."
+      "A. void",
+      "B. int",
+      "C. char",
+      "D. float"
     ],
-    "answer": "B. A pointer is a variable that stores the memory address of another variable. It is different from a regular variable because it doesn't contain the actual data; it points to the data."
+    "answer": "B. int"
   },
   {
-    "question": "What is the purpose of the 'const' keyword in C?",
+    "question": "Which of the following is not a valid data type in C?",
     "options": [
-      "A. 'const' is used to declare a variable as a constant, making its value immutable.",
-      "B. 'const' is used to declare a variable as a non-constant, allowing its value to be modified.",
-      "C. 'const' is used to declare a variable as a floating-point number.",
-      "D. 'const' is used to declare a variable as an integer value."
+      "A. int",
+      "B. real",
+      "C. char",
+      "D. double"
     ],
-    "answer": "A. 'const' is used to declare a variable as a constant, making its value immutable."
+    "answer": "B. real"
   },
   {
-    "question": "Explain the 'break' and 'continue' statements in C.",
+    "question": "What is the correct syntax to declare a constant in C?",
     "options": [
-      "A. 'break' is used to exit a loop prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of the loop.",
-      "B. 'break' is used to skip the current iteration of a loop, while 'continue' is used to exit the loop.",
-      "C. 'break' and 'continue' are used interchangeably in C.",
-      "D. 'break' and 'continue' are used to create infinite loops."
+      "A. const x = 10;",
+      "B. x = 10; constant",
+      "C. constant int x = 10;",
+      "D. #define x 10"
     ],
-    "answer": "A. 'break' is used to exit a loop prematurely, while 'continue' is used to skip the current iteration and proceed to the next iteration of the loop."
+    "answer": "A. const x = 10;"
   },
   {
-    "question": "What is a 'function pointer' in C, and how is it used?",
+    "question": "What is the purpose of the 'sizeof' operator in C?",
     "options": [
-      "A. A function pointer is a pointer to a variable in C.",
-      "B. A function pointer is a pointer that points to a memory location in C.",
-      "C. A function pointer is a pointer that points to a function in C. It is used to call functions indirectly by referencing their memory addresses.",
-      "D. A function pointer is used to create custom data types in C."
+      "A. To find the size of a file",
+      "B. To determine the size in bytes of a data type or variable",
+      "C. To calculate the square root of a number",
+      "D. To convert data from one type to another"
     ],
-    "answer": "C. A function pointer is a pointer that points to a function in C. It is used to call functions indirectly by referencing their memory addresses."
+    "answer": "B. To determine the size in bytes of a data type or variable"
   },
   {
-    "question": "What is the 'preprocessor' in C, and what are its directives used for?",
+    "question": "How do you declare a pointer variable in C?",
     "options": [
-      "A. The preprocessor is used for executing code before compilation, and its directives are used for defining constants, including header files, and conditional compilation.",
-      "B. The preprocessor is used for post-processing code after compilation.",
-      "C. The preprocessor is used to optimize code for runtime execution.",
-      "D. The preprocessor is responsible for printing output to the console."
+      "A. int* ptr;",
+      "B. ptr int;",
+      "C. pointer ptr = int;",
+      "D. declare ptr as int*;"
     ],
-    "answer": "A. The preprocessor is used for executing code before compilation, and its directives are used for defining constants, including header files, and conditional compilation."
+    "answer": "A. int* ptr;"
   },
   {
-    "question": "Explain the difference between 'malloc' and 'calloc' in C for dynamic memory allocation.",
+    "question": "What is the purpose of the 'break' statement in C?",
     "options": [
-      "A. 'malloc' is used for allocating memory and initializing it to zero, while 'calloc' is used for allocating memory without initialization.",
-      "B. 'malloc' and 'calloc' are used interchangeably in C.",
-      "C. 'malloc' is used for deallocating memory, while 'calloc' is used for allocating memory.",
-      "D. 'malloc' and 'calloc' are not used for memory allocation in C."
+      "A. To exit the program",
+      "B. To exit the current loop or switch statement",
+      "C. To jump to a specific label in the code",
+      "D. To create a new function"
     ],
-    "answer": "A. 'malloc' is used for allocating memory and initializing it to zero, while 'calloc' is used for allocating memory without initialization."
+    "answer": "B. To exit the current loop or switch statement"
   },
   {
-    "question": "What is a 'structure' in C, and how is it different from an 'array'?",
+    "question": "In C, what does the '++' operator do when used as a postfix operator?",
     "options": [
-      "A. A structure is a data type that can store multiple values of the same data type, while an array is a collection of different data types.",
-      "B. A structure is a collection of variables of different data types grouped together under a single name, while an array is an ordered collection of elements of the same data type.",
-      "C. A structure is a special type of array in C.",
-      "D. A structure and an array are interchangeable data types in C."
+      "A. Increments the value after using it in an expression",
+      "B. Decreases the value after using it in an expression",
+      "C. Adds 1 to the value before using it in an expression",
+      "D. Multiplies the value by 2 before using it in an expression"
     ],
-    "answer": "B. A structure is a collection of variables of different data types grouped together under a single name, while an array is an ordered collection of elements of the same data type."
+    "answer": "A. Increments the value after using it in an expression"
   },
   {
-    "question": "What is 'recursion' in C, and how does it work?",
+    "question": "What is the purpose of the 'if' statement in C?",
     "options": [
-      "A. Recursion is a data type in C that allows for nested structures.",
-      "B. Recursion is a programming technique in which a function calls itself to solve a problem. It works by breaking the problem into smaller subproblems.",
-      "C. Recursion is a reserved keyword in C.",
-      "D. Recursion is used for implementing multi-threading in C programs."
+      "A. To print output to the screen",
+      "B. To define a function",
+      "C. To execute a block of code conditionally",
+      "D. To perform mathematical calculations"
     ],
-    "answer": "B. Recursion is a programming technique in which a function calls itself to solve a problem. It works by breaking the problem into smaller subproblems."
+    "answer": "C. To execute a block of code conditionally"
+  },
+  {
+    "question": "What is the 'scope' of a variable in C?",
+    "options": [
+      "A. The memory location where the variable is stored",
+      "B. The range or region within which the variable can be accessed",
+      "C. The data type of the variable",
+      "D. The size of the variable in bytes"
+    ],
+    "answer": "B. The range or region within which the variable can be accessed"
+  },
+  {
+    "question": "What is an 'array' in C?",
+    "options": [
+      "A. A built-in function for sorting data",
+      "B. A sequence of elements of the same data type, stored in contiguous memory locations",
+      "C. A special data type used for defining constants",
+      "D. A way to display data on the screen"
+    ],
+    "answer": "B. A sequence of elements of the same data type, stored in contiguous memory locations"
+  },
+  {
+    "question": "What is the purpose of the 'while' loop in C?",
+    "options": [
+      "A. To define a user-defined function",
+      "B. To execute a block of code repeatedly as long as a condition is true",
+      "C. To perform arithmetic calculations",
+      "D. To define a data type"
+    ],
+    "answer": "B. To execute a block of code repeatedly as long as a condition is true"
+  },
+  {
+    "question": "What is the 'NULL' pointer in C?",
+    "options": [
+      "A. A pointer to a non-existent memory location",
+      "B. A pointer with the value zero",
+      "C. A pointer that is uninitialized",
+      "D. A pointer to the largest memory address"
+    ],
+    "answer": "B. A pointer with the value zero"
+  },
+  {
+    "question": "What is the purpose of the 'do...while' loop in C?",
+    "options": [
+      "A. To execute a block of code repeatedly for a specific number of times",
+      "B. To perform mathematical calculations",
+      "C. To execute a block of code repeatedly until a condition is true",
+      "D. To define a function"
+    ],
+    "answer": "C. To execute a block of code repeatedly until a condition is true"
+  },
+  {
+    "question": "What is the 'switch' statement used for in C?",
+    "options": [
+      "A. To define a user-defined function",
+      "B. To create a pointer to a variable",
+      "C. To execute a block of code based on the value of an expression",
+      "D. To display data on the screen"
+    ],
+    "answer": "C. To execute a block of code based on the value of an expression"
+  },
+  {
+    "question": "What is 'memory leak' in C?",
+    "options": [
+      "A. A condition where memory is allocated but never deallocated, causing the program to consume more and more memory over time",
+      "B. A type of data structure in C",
+      "C. A way to store data in external storage",
+      "D. A type of error that causes the program to crash"
+    ],
+    "answer": "A. A condition where memory is allocated but never deallocated, causing the program to consume more and more memory over time"
+  },
+  {
+    "question": "What is the purpose of the 'malloc' function in C?",
+    "options": [
+      "A. To display text on the screen",
+      "B. To allocate memory dynamically during runtime",
+      "C. To declare a global variable",
+      "D. To create an array"
+    ],
+    "answer": "B. To allocate memory dynamically during runtime"
+  },
+  {
+    "question": "What is the 'sizeof' operator used for in C?",
+    "options": [
+      "A. To determine the number of elements in an array",
+      "B. To find the size of a file",
+      "C. To calculate the square root of a number",
+      "D. To calculate the size in bytes of a data type or variable"
+    ],
+    "answer": "D. To calculate the size in bytes of a data type or variable"
+  } ,{
+    "question": "What is the purpose of the 'for' loop in C?",
+    "options": [
+      "A. To execute a block of code repeatedly while a condition is true",
+      "B. To define a new data type",
+      "C. To create a pointer variable",
+      "D. To allocate memory for variables"
+    ],
+    "answer": "A. To execute a block of code repeatedly while a condition is true"
   }
 ]
+  
