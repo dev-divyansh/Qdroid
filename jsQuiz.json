@@ -1,0 +1,192 @@
+[
+  {
+    "question": "What is JavaScript?",
+    "options": [
+      "A. A type of coffee",
+      "B. A markup language",
+      "C. A high-level programming language used for web development",
+      "D. A design tool for creating web pages"
+    ],
+    "answer": "C. A high-level programming language used for web development"
+  },
+  {
+    "question": "How do you declare a variable in JavaScript?",
+    "options": [
+      "A. var myVar;",
+      "B. variable myVar;",
+      "C. int myVar;",
+      "D. declare myVar;"
+    ],
+    "answer": "A. var myVar;"
+  },
+  {
+    "question": "What is the primary purpose of the 'console.log' function in JavaScript?",
+    "options": [
+      "A. To create graphics",
+      "B. To perform mathematical calculations",
+      "C. To display output in the browser's console",
+      "D. To define user-defined functions"
+    ],
+    "answer": "C. To display output in the browser's console"
+  },
+  {
+    "question": "Which keyword is used to define a function in JavaScript?",
+    "options": [
+      "A. func",
+      "B. function",
+      "C. def",
+      "D. fn"
+    ],
+    "answer": "B. function"
+  },
+  {
+    "question": "How do you create a single-line comment in JavaScript?",
+    "options": [
+      "A. // This is a comment",
+      "B. /* This is a comment */",
+      "C. # This is a comment",
+      "D. -- This is a comment"
+    ],
+    "answer": "A. // This is a comment"
+  },
+  {
+    "question": "What does the 'if' statement do in JavaScript?",
+    "options": [
+      "A. To create loops",
+      "B. To execute a block of code repeatedly",
+      "C. To execute a block of code conditionally",
+      "D. To define variables"
+    ],
+    "answer": "C. To execute a block of code conditionally"
+  },
+  {
+    "question": "What is the result of '5' + 2 in JavaScript?",
+    "options": [
+      "A. 7",
+      "B. '52'",
+      "C. 52",
+      "D. Error"
+    ],
+    "answer": "B. '52'"
+  },
+  {
+    "question": "How do you declare a constant variable in JavaScript?",
+    "options": [
+      "A. constant myVar = 10;",
+      "B. myVar = 10; constant",
+      "C. myVar constant = 10;",
+      "D. #define myVar 10"
+    ],
+    "answer": "A. constant myVar = 10;"
+  },
+  {
+    "question": "What is an 'array' in JavaScript?",
+    "options": [
+      "A. A built-in function for mathematical operations",
+      "B. A sequence of elements of the same data type",
+      "C. A way to create user-defined functions",
+      "D. A design tool for web development"
+    ],
+    "answer": "B. A sequence of elements of the same data type"
+  },
+  {
+    "question": "How do you create a 'for' loop in JavaScript?",
+    "options": [
+      "A. for (i = 0; i < 5; i++)",
+      "B. loop (i = 0; i < 5)",
+      "C. while (i < 5)",
+      "D. iterate (i = 0; i < 5)"
+    ],
+    "answer": "A. for (i = 0; i < 5; i++)"
+  },
+  {
+    "question": "What is the 'typeof' operator used for in JavaScript?",
+    "options": [
+      "A. To define the data type of a variable",
+      "B. To check if a variable is defined",
+      "C. To perform mathematical operations",
+      "D. To create objects"
+    ],
+    "answer": "A. To define the data type of a variable"
+  },
+  {
+    "question": "What does the 'return' statement do in a JavaScript function?",
+    "options": [
+      "A. It stops the execution of the program",
+      "B. It displays a message on the screen",
+      "C. It returns a value from the function",
+      "D. It defines a new variable"
+    ],
+    "answer": "C. It returns a value from the function"
+  },
+  {
+    "question": "How do you create a 'while' loop in JavaScript?",
+    "options": [
+      "A. for (i = 0; i < 5; i++)",
+      "B. loop (i = 0; i < 5)",
+      "C. while (i < 5)",
+      "D. iterate (i = 0; i < 5)"
+    ],
+    "answer": "C. while (i < 5)"
+  },
+  {
+    "question": "What is 'scope' in JavaScript?",
+    "options": [
+      "A. The range or region within which a variable can be accessed",
+      "B. The name of a variable",
+      "C. The type of data in a variable",
+      "D. The size of memory allocated for a variable"
+    ],
+    "answer": "A. The range or region within which a variable can be accessed"
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in a loop?",
+    "options": [
+      "A. To create a new function",
+      "B. To define a new variable",
+      "C. To exit the current loop",
+      "D. To print output on the screen"
+    ],
+    "answer": "C. To exit the current loop"
+  },
+  {
+    "question": "What is 'null' in JavaScript?",
+    "options": [
+      "A. A function for mathematical calculations",
+      "B. A value that represents the absence of an object",
+      "C. A variable declaration",
+      "D. A loop statement"
+    ],
+    "answer": "B. A value that represents the absence of an object"
+  },
+  {
+    "question": "What is the 'innerHTML' property used for in JavaScript?",
+    "options": [
+      "A. To define a function",
+      "B. To set or get the HTML content of an element",
+      "C. To create variables",
+      "D. To execute loops"
+    ],
+    "answer": "B. To set or get the HTML content of an element"
+  },
+  {
+    "question": "What is 'NaN' in JavaScript?",
+    "options": [
+      "A. A special value that represents 'Not a Number'",
+      "B. A data type in JavaScript",
+      "C. A way to define functions",
+      "D. A type of loop"
+    ],
+    "answer": "A. A special value that represents 'Not a Number'"
+  },
+  {
+    "question": "What is the 'addEventListener' method used for in JavaScript?",
+    "options": [
+      "A. To create global variables",
+      "B. To execute mathematical operations",
+      "C. To add an event handler to an HTML element",
+      "D. To define custom data types"
+    ],
+    "answer": "C. To add an event handler to an HTML element"
+  }
+]
